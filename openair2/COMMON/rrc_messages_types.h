@@ -96,9 +96,13 @@ typedef struct RrcConfigurationReq_s {
 
   uint16_t            tac;
 
-  uint16_t            mcc;
+  /*uint16_t            mcc;
   uint16_t            mnc;
-  uint8_t             mnc_digit_length;
+  uint8_t             mnc_digit_length;*/
+    /* Nb of PLMN to connect for each MME*/
+    uint8_t             nb_plmn;
+    /*list of PLMNs to connect to*/
+    s1ap_plmn_t              plmn[S1AP_MAX_NB_PLMN];
 
   /*
     paging_drx_t        default_drx;

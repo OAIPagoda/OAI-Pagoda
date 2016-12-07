@@ -70,6 +70,7 @@
 
 #define S1AP_MAX_NB_MME_IP_ADDRESS 10
 #define S1AP_IMSI_LENGTH           16
+#define S1AP_MAX_NB_PLMN           10
 
 /* Security key length used within eNB
  * Even if only 16 bytes will be effectively used,
@@ -81,6 +82,13 @@ typedef enum cell_type_e {
   CELL_MACRO_ENB,
   CELL_HOME_ENB
 } cell_type_t;
+
+
+typedef struct plmn_s {
+    uint16_t  mcc;
+    uint16_t  mnc;
+    uint16_t  mnc_digit_length;
+}s1ap_plmn_t;
 
 typedef enum paging_drx_e {
   PAGING_DRX_32  = 0x0,
@@ -303,9 +311,14 @@ typedef struct s1ap_register_enb_req_s {
   /* Mobile Country Code
    * Mobile Network Code
    */
-  uint16_t mcc;
+  /*uint16_t mcc;
   uint16_t mnc;
   uint8_t  mnc_digit_length;
+    */
+    /* Nb of PLMN to connect for each MME*/
+    uint8_t             nb_plmn;
+    /*list of PLMNs to connect to*/
+    s1ap_plmn_t              plmn[S1AP_MAX_NB_PLMN];
 
   /* Default Paging DRX of the eNB as defined in TS 36.304 */
   paging_drx_t default_drx;

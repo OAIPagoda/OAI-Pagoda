@@ -638,6 +638,7 @@ rrc_eNB_send_S1AP_NAS_FIRST_REQ(
     MessageDef*         message_p         = NULL;
     rrc_ue_s1ap_ids_t*  rrc_ue_s1ap_ids_p = NULL;
     hashtable_rc_t      h_rc;
+    uint8_t index;
 
     message_p = itti_alloc_new_message (TASK_RRC_ENB, S1AP_NAS_FIRST_REQ);
     memset(&message_p->ittiMsg.s1ap_nas_first_req, 0, sizeof(s1ap_nas_first_req_t));
@@ -717,9 +718,11 @@ rrc_eNB_send_S1AP_NAS_FIRST_REQ(
           enb_properties_p = enb_config_get();
 
           // actually the eNB configuration contains only one PLMN (can be up to 6)
-          S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mcc = enb_properties_p->properties[ctxt_pP->module_id]->mcc;
-          S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mnc = enb_properties_p->properties[ctxt_pP->module_id]->mnc;
-          S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mnc_len = enb_properties_p->properties[ctxt_pP->module_id]->mnc_digit_length;
+          for (index = 0; index < enb_properties_p->properties[ctxt_pP->module_id]->nb_plmn; index++){
+            S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mcc = enb_properties_p->properties[ctxt_pP->module_id]->plmn[index].mcc;
+            S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mnc = enb_properties_p->properties[ctxt_pP->module_id]->plmn[index].mnc;
+            S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mnc_len = enb_properties_p->properties[ctxt_pP->module_id]->plmn[index].mnc_digit_length;
+          }
         }
 
         S1AP_NAS_FIRST_REQ (message_p).ue_identity.gummei.mme_code     = BIT_STRING_to_uint8 (&r_mme->mmec);

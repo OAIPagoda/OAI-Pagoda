@@ -1,0 +1,3120 @@
+Downloading gnutls archive
+--2016-12-05 20:58:14--  http://mirrors.dotsrc.org/gcrypt/gnutls/v3.1/gnutls-3.1.23.tar.xz
+Resolving mirrors.dotsrc.org (mirrors.dotsrc.org)... 130.225.254.116, 2001:878:346::116
+Connecting to mirrors.dotsrc.org (mirrors.dotsrc.org)|130.225.254.116|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5148432 (4,9M) [text/plain]
+Saving to: ‘gnutls-3.1.23.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  0% 1,08M 4s
+    50K .......... .......... .......... .......... ..........  1% 2,16M 3s
+   100K .......... .......... .......... .......... ..........  2% 62,8M 2s
+   150K .......... .......... .......... .......... ..........  3% 65,8M 2s
+   200K .......... .......... .......... .......... ..........  4% 2,25M 2s
+   250K .......... .......... .......... .......... ..........  5% 63,4M 1s
+   300K .......... .......... .......... .......... ..........  6% 75,1M 1s
+   350K .......... .......... .......... .......... ..........  7% 78,9M 1s
+   400K .......... .......... .......... .......... ..........  8% 2,43M 1s
+   450K .......... .......... .......... .......... ..........  9% 61,0M 1s
+   500K .......... .......... .......... .......... .......... 10% 65,5M 1s
+   550K .......... .......... .......... .......... .......... 11% 47,4M 1s
+   600K .......... .......... .......... .......... .......... 12% 77,1M 1s
+   650K .......... .......... .......... .......... .......... 13% 75,8M 1s
+   700K .......... .......... .......... .......... .......... 14% 78,3M 1s
+   750K .......... .......... .......... .......... .......... 15% 70,8M 1s
+   800K .......... .......... .......... .......... .......... 16% 85,3M 1s
+   850K .......... .......... .......... .......... .......... 17% 2,86M 1s
+   900K .......... .......... .......... .......... .......... 18% 63,9M 1s
+   950K .......... .......... .......... .......... .......... 19% 76,6M 1s
+  1000K .......... .......... .......... .......... .......... 20% 80,7M 1s
+  1050K .......... .......... .......... .......... .......... 21% 67,1M 0s
+  1100K .......... .......... .......... .......... .......... 22% 77,3M 0s
+  1150K .......... .......... .......... .......... .......... 23% 81,1M 0s
+  1200K .......... .......... .......... .......... .......... 24% 80,7M 0s
+  1250K .......... .......... .......... .......... .......... 25% 71,1M 0s
+  1300K .......... .......... .......... .......... .......... 26% 79,3M 0s
+  1350K .......... .......... .......... .......... .......... 27% 78,2M 0s
+  1400K .......... .......... .......... .......... .......... 28% 78,6M 0s
+  1450K .......... .......... .......... .......... .......... 29% 69,3M 0s
+  1500K .......... .......... .......... .......... .......... 30% 80,3M 0s
+  1550K .......... .......... .......... .......... .......... 31% 70,1M 0s
+  1600K .......... .......... .......... .......... .......... 32% 82,6M 0s
+  1650K .......... .......... .......... .......... .......... 33% 68,4M 0s
+  1700K .......... .......... .......... .......... .......... 34% 3,84M 0s
+  1750K .......... .......... .......... .......... .......... 35% 65,3M 0s
+  1800K .......... .......... .......... .......... .......... 36% 65,4M 0s
+  1850K .......... .......... .......... .......... .......... 37% 74,4M 0s
+  1900K .......... .......... .......... .......... .......... 38% 75,9M 0s
+  1950K .......... .......... .......... .......... .......... 39% 74,4M 0s
+  2000K .......... .......... .......... .......... .......... 40% 59,0M 0s
+  2050K .......... .......... .......... .......... .......... 41% 72,9M 0s
+  2100K .......... .......... .......... .......... .......... 42% 68,4M 0s
+  2150K .......... .......... .......... .......... .......... 43% 70,5M 0s
+  2200K .......... .......... .......... .......... .......... 44% 45,0M 0s
+  2250K .......... .......... .......... .......... .......... 45% 74,0M 0s
+  2300K .......... .......... .......... .......... .......... 46% 72,6M 0s
+  2350K .......... .......... .......... .......... .......... 47% 75,9M 0s
+  2400K .......... .......... .......... .......... .......... 48% 65,5M 0s
+  2450K .......... .......... .......... .......... .......... 49% 79,2M 0s
+  2500K .......... .......... .......... .......... .......... 50% 79,4M 0s
+  2550K .......... .......... .......... .......... .......... 51% 81,7M 0s
+  2600K .......... .......... .......... .......... .......... 52% 65,7M 0s
+  2650K .......... .......... .......... .......... .......... 53% 75,3M 0s
+  2700K .......... .......... .......... .......... .......... 54% 66,2M 0s
+  2750K .......... .......... .......... .......... .......... 55% 71,2M 0s
+  2800K .......... .......... .......... .......... .......... 56% 68,0M 0s
+  2850K .......... .......... .......... .......... .......... 57% 81,0M 0s
+  2900K .......... .......... .......... .......... .......... 58% 78,5M 0s
+  2950K .......... .......... .......... .......... .......... 59% 80,1M 0s
+  3000K .......... .......... .......... .......... .......... 60% 73,3M 0s
+  3050K .......... .......... .......... .......... .......... 61% 81,6M 0s
+  3100K .......... .......... .......... .......... .......... 62% 78,2M 0s
+  3150K .......... .......... .......... .......... .......... 63% 71,5M 0s
+  3200K .......... .......... .......... .......... .......... 64% 74,7M 0s
+  3250K .......... .......... .......... .......... .......... 65% 81,5M 0s
+  3300K .......... .......... .......... .......... .......... 66% 78,4M 0s
+  3350K .......... .......... .......... .......... .......... 67% 72,5M 0s
+  3400K .......... .......... .......... .......... .......... 68% 44,1M 0s
+  3450K .......... .......... .......... .......... .......... 69% 66,9M 0s
+  3500K .......... .......... .......... .......... .......... 70% 67,5M 0s
+  3550K .......... .......... .......... .......... .......... 71% 76,1M 0s
+  3600K .......... .......... .......... .......... .......... 72% 70,3M 0s
+  3650K .......... .......... .......... .......... .......... 73% 79,7M 0s
+  3700K .......... .......... .......... .......... .......... 74% 81,7M 0s
+  3750K .......... .......... .......... .......... .......... 75% 76,6M 0s
+  3800K .......... .......... .......... .......... .......... 76% 66,8M 0s
+  3850K .......... .......... .......... .......... .......... 77% 80,1M 0s
+  3900K .......... .......... .......... .......... .......... 78% 73,2M 0s
+  3950K .......... .......... .......... .......... .......... 79% 78,9M 0s
+  4000K .......... .......... .......... .......... .......... 80% 69,3M 0s
+  4050K .......... .......... .......... .......... .......... 81% 80,0M 0s
+  4100K .......... .......... .......... .......... .......... 82% 74,6M 0s
+  4150K .......... .......... .......... .......... .......... 83% 79,6M 0s
+  4200K .......... .......... .......... .......... .......... 84% 64,5M 0s
+  4250K .......... .......... .......... .......... .......... 85% 69,7M 0s
+  4300K .......... .......... .......... .......... .......... 86% 75,4M 0s
+  4350K .......... .......... .......... .......... .......... 87% 65,3M 0s
+  4400K .......... .......... .......... .......... .......... 88% 61,6M 0s
+  4450K .......... .......... .......... .......... .......... 89% 77,1M 0s
+  4500K .......... .......... .......... .......... .......... 90% 79,5M 0s
+  4550K .......... .......... .......... .......... .......... 91% 72,9M 0s
+  4600K .......... .......... .......... .......... .......... 92% 51,5M 0s
+  4650K .......... .......... .......... .......... .......... 93% 76,0M 0s
+  4700K .......... .......... .......... .......... .......... 94% 80,6M 0s
+  4750K .......... .......... .......... .......... .......... 95% 85,2M 0s
+  4800K .......... .......... .......... .......... .......... 96% 69,3M 0s
+  4850K .......... .......... .......... .......... .......... 97% 85,4M 0s
+  4900K .......... .......... .......... .......... .......... 98% 85,8M 0s
+  4950K .......... .......... .......... .......... .......... 99% 82,0M 0s
+  5000K .......... .......... .......                         100% 65,4M=0,2s
+
+2016-12-05 20:58:15 (24,1 MB/s) - ‘gnutls-3.1.23.tar.xz’ saved [5148432/5148432]
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+***
+*** Checking for compilation programs...
+
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking dependency style of gcc... gcc3
+checking the archiver (ar) interface... ar
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for autogen... /bin/true
+configure: WARNING:
+***
+*** autogen not found. Will not link against libopts.
+*** 
+checking for inline... inline
+checking for ANSI C header files... (cached) yes
+checking cpuid.h usability... yes
+checking cpuid.h presence... yes
+checking for cpuid.h... yes
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether to use nettle... yes
+checking for libnettle... yes
+checking how to link with libnettle... /usr/lib/libnettle.so /usr/lib/libhogweed.so -lgmp
+checking for __gmpz_cmp in -lgmp... yes
+checking for LIBTASN1... yes
+checking whether to use the included minitasn1... no
+checking whether C99 macros are supported... yes
+checking whether to disable DTLS-SRTP extension... no
+checking whether to disable TLS heartbeat support... yes
+checking whether to disable SRP authentication support... no
+checking whether to disable PSK authentication support... no
+checking whether to disable anonymous authentication support... no
+checking whether to disable DHE support... no
+checking whether to disable ECDHE support... no
+checking whether to disable RSA-EXPORT support... no
+checking whether to disable OpenPGP Certificate authentication support... no
+checking whether to add cryptodev support... no
+checking whether to disable OCSP support... no
+checking size of void *... 8
+checking size of long long... 8
+checking size of long... 8
+checking size of int... 4
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking features.h usability... yes
+checking features.h presence... yes
+checking for features.h... yes
+checking linewrap.h usability... no
+checking linewrap.h presence... no
+checking for linewrap.h... no
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking for sys/stat.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for unistd.h... (cached) yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sysexits.h usability... yes
+checking sysexits.h presence... yes
+checking for sysexits.h... yes
+checking for inttypes.h... (cached) yes
+checking xlocale.h usability... yes
+checking xlocale.h presence... yes
+checking for xlocale.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking for library containing setsockopt... none needed
+checking whether to build OpenSSL compatibility layer... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking whether byte ordering is bigendian... no
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking whether <sys/socket.h> is self-contained... yes
+checking for shutdown... yes
+checking whether <sys/socket.h> defines the SHUT_* macros... yes
+checking for struct sockaddr_storage... yes
+checking for sa_family_t... yes
+checking for struct sockaddr_storage.ss_family... yes
+checking whether socket is declared without a macro... yes
+checking whether connect is declared without a macro... yes
+checking whether accept is declared without a macro... yes
+checking whether bind is declared without a macro... yes
+checking whether getpeername is declared without a macro... yes
+checking whether getsockname is declared without a macro... yes
+checking whether getsockopt is declared without a macro... yes
+checking whether listen is declared without a macro... yes
+checking whether recv is declared without a macro... yes
+checking whether send is declared without a macro... yes
+checking whether recvfrom is declared without a macro... yes
+checking whether sendto is declared without a macro... yes
+checking whether setsockopt is declared without a macro... yes
+checking whether shutdown is declared without a macro... yes
+checking whether accept4 is declared without a macro... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for C/C++ restrict keyword... __restrict
+checking whether clearerr_unlocked is declared... yes
+checking whether feof_unlocked is declared... yes
+checking whether ferror_unlocked is declared... yes
+checking whether fflush_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking whether fputc_unlocked is declared... yes
+checking whether fputs_unlocked is declared... yes
+checking whether fread_unlocked is declared... yes
+checking whether fwrite_unlocked is declared... yes
+checking whether getc_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking for flockfile... yes
+checking for funlockfile... yes
+checking for _set_invalid_parameter_handler... no
+checking for __fseterr... no
+checking for getdelim... yes
+checking for __fsetlocking... yes
+checking for tcgetattr... yes
+checking for tcsetattr... yes
+checking for getsubopt... yes
+checking for gettimeofday... yes
+checking for nanotime... no
+checking for mprotect... yes
+checking for sleep... yes
+checking for snprintf... yes
+checking for strdup... yes
+checking for strerror_r... yes
+checking for __xpg_strerror_r... yes
+checking for strndup... yes
+checking for localtime_r... yes
+checking for vasnprintf... no
+checking for ftruncate... yes
+checking for getdtablesize... yes
+checking for newlocale... yes
+checking for lstat... yes
+checking for pipe... yes
+checking for setenv... yes
+checking for catgets... yes
+checking for symlink... yes
+checking for shutdown... (cached) yes
+checking whether // is distinct from /... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... (cached) yes
+checking whether strerror_r returns char *... yes
+checking whether frexp() can be used without linking with libm... yes
+checking whether alarm is declared... yes
+checking whether long double and double are the same... no
+checking whether stdin defaults to large file offsets... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking whether fseeko is declared... yes
+checking for fseeko... yes
+checking whether stat file-mode macros are broken... no
+checking for nlink_t... yes
+checking whether fchmodat is declared without a macro... yes
+checking whether fstat is declared without a macro... yes
+checking whether fstatat is declared without a macro... yes
+checking whether futimens is declared without a macro... yes
+checking whether lchmod is declared without a macro... yes
+checking whether lstat is declared without a macro... yes
+checking whether mkdirat is declared without a macro... yes
+checking whether mkfifo is declared without a macro... yes
+checking whether mkfifoat is declared without a macro... yes
+checking whether mknod is declared without a macro... yes
+checking whether mknodat is declared without a macro... yes
+checking whether stat is declared without a macro... yes
+checking whether utimensat is declared without a macro... yes
+checking whether ftello is declared... yes
+checking for ftello... yes
+checking whether ftello works... yes
+checking whether getaddrinfo is declared without a macro... yes
+checking whether freeaddrinfo is declared without a macro... yes
+checking whether gai_strerror is declared without a macro... yes
+checking whether getnameinfo is declared without a macro... yes
+checking for library containing gethostbyname... none required
+checking for gethostbyname... yes
+checking for library containing getservbyname... none required
+checking for getservbyname... yes
+checking for library containing inet_ntop... none required
+checking whether inet_ntop is declared... yes
+checking for IPv4 sockets... yes
+checking for IPv6 sockets... yes
+checking whether getdelim is declared... yes
+checking whether getline is declared... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking whether getenv is declared... yes
+checking whether getpass is declared... yes
+checking whether flockfile is declared... yes
+checking whether funlockfile is declared... yes
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking whether gettimeofday is declared without a macro... yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking where to find the exponent in a 'float'... word 0 bit 23
+checking whether byte ordering is bigendian... (cached) no
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking whether memchr works... yes
+checking whether memmem is declared... yes
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... yes
+checking whether <sys/select.h> is self-contained... yes
+checking whether pselect is declared without a macro... yes
+checking whether select is declared without a macro... yes
+checking for sigset_t... yes
+checking for uid_t in sys/types.h... yes
+checking whether snprintf returns a byte count as in C99... yes
+checking whether snprintf is declared... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for wchar_t... yes
+checking for long long int... yes
+checking for unsigned long long int... yes
+checking whether stdint.h conforms to C99... yes
+checking whether strdup is declared... yes
+checking whether strerror(0) succeeds... yes
+checking for strerror_r with POSIX signature... no
+checking whether __xpg_strerror_r works... yes
+checking whether ffsl is declared without a macro... yes
+checking whether ffsll is declared without a macro... yes
+checking whether memmem is declared without a macro... yes
+checking whether mempcpy is declared without a macro... yes
+checking whether memrchr is declared without a macro... yes
+checking whether rawmemchr is declared without a macro... yes
+checking whether stpcpy is declared without a macro... yes
+checking whether stpncpy is declared without a macro... yes
+checking whether strchrnul is declared without a macro... yes
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... yes
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... yes
+checking whether strcasestr is declared without a macro... yes
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... yes
+checking whether strsignal is declared without a macro... yes
+checking whether strverscmp is declared without a macro... yes
+checking whether ffs is declared without a macro... yes
+checking whether strcasecmp is declared without a macro... yes
+checking whether strncasecmp is declared without a macro... yes
+checking whether strndup is declared... (cached) yes
+checking whether strnlen is declared... (cached) yes
+checking whether strtok_r is declared... (cached) yes
+checking whether imported symbols can be declared weak... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_kill in -lpthread... yes
+checking for multithread API to use... posix
+checking for struct timespec in <time.h>... yes
+checking for wint_t... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for intmax_t... yes
+checking for snprintf... (cached) yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking whether _snprintf is declared... no
+checking whether printf supports size specifiers as in C99... yes
+checking whether printf supports 'long double' arguments... yes
+checking whether printf supports infinite 'double' arguments... yes
+checking whether printf supports infinite 'long double' arguments... no
+checking whether printf supports the 'a' and 'A' directives... yes
+checking whether printf supports the 'F' directive... yes
+checking whether printf supports the 'n' directive... no
+checking whether printf supports the 'ls' directive... yes
+checking whether printf supports the grouping flag... yes
+checking whether printf supports the left-adjust flag correctly... yes
+checking whether printf supports the zero flag correctly... yes
+checking whether printf supports large precisions... yes
+checking whether printf survives out-of-memory conditions... yes
+checking whether vsnprintf is declared... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking for nl_langinfo and CODESET... yes
+checking if environ is properly declared... yes
+checking for working fcntl.h... yes
+checking whether ungetc works on arbitrary bytes... yes
+checking whether getcwd (NULL, 0) allocates memory for result... yes
+checking for getcwd with POSIX signature... yes
+checking whether imaxabs is declared without a macro... yes
+checking whether imaxdiv is declared without a macro... yes
+checking whether strtoimax is declared without a macro... yes
+checking whether strtoumax is declared without a macro... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for LC_MESSAGES... yes
+checking whether lstat correctly handles trailing slash... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for promoted mode_t type... mode_t
+checking whether strerror_r is declared... (cached) yes
+checking whether setenv is declared... yes
+checking search.h usability... yes
+checking search.h presence... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking whether unsetenv is declared... yes
+checking for alloca as a compiler built-in... yes
+checking for alphasort... yes
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking whether program_invocation_name is defined... yes
+checking whether program_invocation_short_name is defined... yes
+checking whether inet_ntop is declared without a macro... yes
+checking whether inet_pton is declared without a macro... yes
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for clock_settime... yes
+checking for closedir... yes
+checking whether alphasort is declared without a macro... yes
+checking whether closedir is declared without a macro... yes
+checking whether dirfd is declared without a macro... yes
+checking whether fdopendir is declared without a macro... yes
+checking whether opendir is declared without a macro... yes
+checking whether readdir is declared without a macro... yes
+checking whether rewinddir is declared without a macro... yes
+checking whether scandir is declared without a macro... yes
+checking whether // is distinct from /... (cached) no
+checking whether dup2 works... yes
+checking for error_at_line... yes
+checking whether conversion from 'int' to 'long double' works... yes
+checking whether frexp works... yes
+checking whether frexpl is declared... yes
+checking whether frexpl() can be used without linking with libm... yes
+checking whether frexpl works... yes
+checking for fseeko... (cached) yes
+checking for ftello... (cached) yes
+checking whether ftello works... (cached) yes
+checking whether __func__ is available... yes
+configure: checking how to do getaddrinfo, freeaddrinfo and getnameinfo
+checking for library containing getaddrinfo... none required
+checking for getaddrinfo... yes
+checking whether gai_strerror is declared... (cached) yes
+checking whether gai_strerrorA is declared... no
+checking for gai_strerror with POSIX signature... yes
+checking for struct sockaddr.sa_len... no
+checking whether getaddrinfo is declared... (cached) yes
+checking whether freeaddrinfo is declared... (cached) yes
+checking whether getnameinfo is declared... (cached) yes
+checking for struct addrinfo... yes
+checking for working getdelim function... yes
+checking for getline... yes
+checking for working getline function... yes
+checking for getpass... yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... almost
+checking for library containing gethostbyname... (cached) none required
+checking for gethostbyname... (cached) yes
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking whether iconv supports conversion between UTF-8 and UTF-{16,32}{BE,LE}... yes
+checking for library containing inet_ntop... (cached) none required
+checking whether inet_ntop is declared... (cached) yes
+checking for library containing inet_pton... none required
+checking whether inet_pton is declared... (cached) yes
+checking whether the compiler generally respects inline... yes
+checking whether isnan(double) can be used without linking with libm... yes
+checking whether isnan(float) can be used without linking with libm... yes
+checking whether isnan(float) works... yes
+checking whether isnan(long double) can be used without linking with libm... yes
+checking whether isnanl works... no
+checking where to find the exponent in a 'long double'... unknown
+checking if gcc/ld supports -Wl,--output-def... no
+checking if LD -Wl,--version-script works... yes
+checking whether lseek detects pipes... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... (cached) yes
+checking whether NAN macro works... yes
+checking whether HUGE_VAL works... yes
+checking whether acosf is declared without a macro... yes
+checking whether acosl is declared without a macro... yes
+checking whether asinf is declared without a macro... yes
+checking whether asinl is declared without a macro... yes
+checking whether atanf is declared without a macro... yes
+checking whether atanl is declared without a macro... yes
+checking whether cbrt is declared without a macro... yes
+checking whether cbrtf is declared without a macro... yes
+checking whether cbrtl is declared without a macro... yes
+checking whether ceilf is declared without a macro... yes
+checking whether ceill is declared without a macro... yes
+checking whether copysign is declared without a macro... yes
+checking whether copysignf is declared without a macro... yes
+checking whether copysignl is declared without a macro... yes
+checking whether cosf is declared without a macro... yes
+checking whether cosl is declared without a macro... yes
+checking whether coshf is declared without a macro... yes
+checking whether expf is declared without a macro... yes
+checking whether expl is declared without a macro... yes
+checking whether exp2 is declared without a macro... yes
+checking whether exp2f is declared without a macro... yes
+checking whether exp2l is declared without a macro... yes
+checking whether expm1 is declared without a macro... yes
+checking whether expm1f is declared without a macro... yes
+checking whether expm1l is declared without a macro... yes
+checking whether fabsf is declared without a macro... yes
+checking whether fabsl is declared without a macro... yes
+checking whether floorf is declared without a macro... yes
+checking whether floorl is declared without a macro... yes
+checking whether fma is declared without a macro... yes
+checking whether fmaf is declared without a macro... yes
+checking whether fmal is declared without a macro... yes
+checking whether fmod is declared without a macro... yes
+checking whether fmodf is declared without a macro... yes
+checking whether fmodl is declared without a macro... yes
+checking whether frexpf is declared without a macro... yes
+checking whether frexpl is declared without a macro... yes
+checking whether hypotf is declared without a macro... yes
+checking whether hypotl is declared without a macro... yes
+checking whether ilogb is declared without a macro... yes
+checking whether ilogbf is declared without a macro... yes
+checking whether ilogbl is declared without a macro... yes
+checking whether ldexpf is declared without a macro... yes
+checking whether ldexpl is declared without a macro... yes
+checking whether log is declared without a macro... yes
+checking whether logf is declared without a macro... yes
+checking whether logl is declared without a macro... yes
+checking whether log10 is declared without a macro... yes
+checking whether log10f is declared without a macro... yes
+checking whether log10l is declared without a macro... yes
+checking whether log1p is declared without a macro... yes
+checking whether log1pf is declared without a macro... yes
+checking whether log1pl is declared without a macro... yes
+checking whether log2 is declared without a macro... yes
+checking whether log2f is declared without a macro... yes
+checking whether log2l is declared without a macro... yes
+checking whether logb is declared without a macro... yes
+checking whether logbf is declared without a macro... yes
+checking whether logbl is declared without a macro... yes
+checking whether modf is declared without a macro... yes
+checking whether modff is declared without a macro... yes
+checking whether modfl is declared without a macro... yes
+checking whether powf is declared without a macro... yes
+checking whether remainder is declared without a macro... yes
+checking whether remainderf is declared without a macro... yes
+checking whether remainderl is declared without a macro... yes
+checking whether rint is declared without a macro... yes
+checking whether rintf is declared without a macro... yes
+checking whether rintl is declared without a macro... yes
+checking whether round is declared without a macro... yes
+checking whether roundf is declared without a macro... yes
+checking whether roundl is declared without a macro... yes
+checking whether sinf is declared without a macro... yes
+checking whether sinl is declared without a macro... yes
+checking whether sinhf is declared without a macro... yes
+checking whether sqrtf is declared without a macro... yes
+checking whether sqrtl is declared without a macro... yes
+checking whether tanf is declared without a macro... yes
+checking whether tanl is declared without a macro... yes
+checking whether tanhf is declared without a macro... yes
+checking whether trunc is declared without a macro... yes
+checking whether truncf is declared without a macro... yes
+checking whether truncl is declared without a macro... yes
+checking for memmem... yes
+checking whether memmem works... yes
+checking for mempcpy... yes
+checking whether getaddrinfo is declared without a macro... (cached) yes
+checking whether freeaddrinfo is declared without a macro... (cached) yes
+checking whether gai_strerror is declared without a macro... (cached) yes
+checking whether getnameinfo is declared without a macro... (cached) yes
+checking whether <netinet/in.h> is self-contained... yes
+checking for opendir... yes
+checking for pmccabe... false
+checking whether frexp works... (cached) yes
+checking whether ldexp can be used without linking with libm... yes
+checking whether frexpl() can be used without linking with libm... (cached) yes
+checking whether frexpl works... (cached) yes
+checking whether frexpl is declared... (cached) yes
+checking whether ldexpl() can be used without linking with libm... yes
+checking whether ldexpl works... yes
+checking whether ldexpl is declared... (cached) yes
+checking whether program_invocation_name is declared... (cached) yes
+checking whether program_invocation_short_name is declared... (cached) yes
+checking for rawmemchr... yes
+checking for readdir... yes
+checking for scandir... yes
+checking whether select supports a 0 argument... yes
+checking whether select detects invalid fds... yes
+checking for library containing getservbyname... (cached) none required
+checking for getservbyname... (cached) yes
+checking for volatile sig_atomic_t... yes
+checking for sighandler_t... yes
+checking whether pthread_sigmask is declared without a macro... yes
+checking whether sigaction is declared without a macro... yes
+checking whether sigaddset is declared without a macro... yes
+checking whether sigdelset is declared without a macro... yes
+checking whether sigemptyset is declared without a macro... yes
+checking whether sigfillset is declared without a macro... yes
+checking whether sigismember is declared without a macro... yes
+checking whether sigpending is declared without a macro... yes
+checking whether sigprocmask is declared without a macro... yes
+checking for signbit macro... yes
+checking for signbit compiler built-ins... yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking whether sleep is declared... yes
+checking for working sleep... yes
+checking for snprintf... (cached) yes
+checking whether snprintf respects a size of 1... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking for library containing setsockopt... (cached) none needed
+checking for socklen_t... yes
+checking for ssize_t... yes
+checking for working stdalign.h... yes
+checking for va_copy... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether dprintf is declared without a macro... yes
+checking whether fpurge is declared without a macro... no
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... yes
+checking whether getline is declared without a macro... yes
+checking whether gets is declared without a macro... no
+checking whether pclose is declared without a macro... yes
+checking whether popen is declared without a macro... yes
+checking whether renameat is declared without a macro... yes
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... yes
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... yes
+checking whether getloadavg is declared without a macro... yes
+checking whether getsubopt is declared without a macro... yes
+checking whether grantpt is declared without a macro... yes
+checking whether initstate is declared without a macro... yes
+checking whether initstate_r is declared without a macro... yes
+checking whether mkdtemp is declared without a macro... yes
+checking whether mkostemp is declared without a macro... yes
+checking whether mkostemps is declared without a macro... yes
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... yes
+checking whether posix_openpt is declared without a macro... yes
+checking whether ptsname is declared without a macro... yes
+checking whether ptsname_r is declared without a macro... yes
+checking whether random is declared without a macro... yes
+checking whether random_r is declared without a macro... yes
+checking whether realpath is declared without a macro... yes
+checking whether rpmatch is declared without a macro... yes
+checking whether secure_getenv is declared without a macro... yes
+checking whether setenv is declared without a macro... yes
+checking whether setstate is declared without a macro... yes
+checking whether setstate_r is declared without a macro... yes
+checking whether srandom is declared without a macro... yes
+checking whether srandom_r is declared without a macro... yes
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... yes
+checking whether unsetenv is declared without a macro... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking whether strncasecmp is declared... (cached) yes
+checking for strchrnul... yes
+checking whether strchrnul works... yes
+checking for working strerror function... yes
+checking for working strndup... yes
+checking for working strnlen... yes
+checking for strtok_r... yes
+checking whether strtok_r works... yes
+checking for strverscmp... yes
+checking whether <sys/select.h> is self-contained... (cached) yes
+checking whether pselect is declared without a macro... (cached) yes
+checking whether select is declared without a macro... (cached) yes
+checking whether <sys/socket.h> is self-contained... (cached) yes
+checking for shutdown... (cached) yes
+checking whether <sys/socket.h> defines the SHUT_* macros... (cached) yes
+checking for struct sockaddr_storage... (cached) yes
+checking for sa_family_t... (cached) yes
+checking for struct sockaddr_storage.ss_family... (cached) yes
+checking whether socket is declared without a macro... (cached) yes
+checking whether connect is declared without a macro... (cached) yes
+checking whether accept is declared without a macro... (cached) yes
+checking whether bind is declared without a macro... (cached) yes
+checking whether getpeername is declared without a macro... (cached) yes
+checking whether getsockname is declared without a macro... (cached) yes
+checking whether getsockopt is declared without a macro... (cached) yes
+checking whether listen is declared without a macro... (cached) yes
+checking whether recv is declared without a macro... (cached) yes
+checking whether send is declared without a macro... (cached) yes
+checking whether recvfrom is declared without a macro... (cached) yes
+checking whether sendto is declared without a macro... (cached) yes
+checking whether setsockopt is declared without a macro... (cached) yes
+checking whether shutdown is declared without a macro... (cached) yes
+checking whether accept4 is declared without a macro... (cached) yes
+checking for nlink_t... (cached) yes
+checking whether fchmodat is declared without a macro... (cached) yes
+checking whether fstat is declared without a macro... (cached) yes
+checking whether fstatat is declared without a macro... (cached) yes
+checking whether futimens is declared without a macro... (cached) yes
+checking whether lchmod is declared without a macro... (cached) yes
+checking whether lstat is declared without a macro... (cached) yes
+checking whether mkdirat is declared without a macro... (cached) yes
+checking whether mkfifo is declared without a macro... (cached) yes
+checking whether mkfifoat is declared without a macro... (cached) yes
+checking whether mknod is declared without a macro... (cached) yes
+checking whether mknodat is declared without a macro... (cached) yes
+checking whether stat is declared without a macro... (cached) yes
+checking whether utimensat is declared without a macro... (cached) yes
+checking whether localtime_r is declared... yes
+checking whether localtime_r is compatible with its POSIX signature... yes
+checking for library containing timer_settime... -lrt
+checking for timer_settime... yes
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... yes
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... yes
+checking whether environ is declared without a macro... yes
+checking whether euidaccess is declared without a macro... yes
+checking whether faccessat is declared without a macro... yes
+checking whether fchdir is declared without a macro... yes
+checking whether fchownat is declared without a macro... yes
+checking whether fdatasync is declared without a macro... yes
+checking whether fsync is declared without a macro... yes
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... yes
+checking whether getdtablesize is declared without a macro... yes
+checking whether getgroups is declared without a macro... yes
+checking whether gethostname is declared without a macro... yes
+checking whether getlogin is declared without a macro... yes
+checking whether getlogin_r is declared without a macro... yes
+checking whether getpagesize is declared without a macro... yes
+checking whether getusershell is declared without a macro... yes
+checking whether setusershell is declared without a macro... yes
+checking whether endusershell is declared without a macro... yes
+checking whether group_member is declared without a macro... yes
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... yes
+checking whether link is declared without a macro... yes
+checking whether linkat is declared without a macro... yes
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... yes
+checking whether pipe2 is declared without a macro... yes
+checking whether pread is declared without a macro... yes
+checking whether pwrite is declared without a macro... yes
+checking whether readlink is declared without a macro... yes
+checking whether readlinkat is declared without a macro... yes
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... yes
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... yes
+checking whether symlinkat is declared without a macro... yes
+checking whether ttyname_r is declared without a macro... yes
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... yes
+checking whether usleep is declared without a macro... yes
+checking for valgrind... valgrind
+checking whether self tests are run under valgrind... yes
+checking for ptrdiff_t... yes
+checking for vasprintf... yes
+checking for ptrdiff_t... (cached) yes
+checking for vsnprintf... yes
+checking whether snprintf respects a size of 1... (cached) yes
+checking whether printf supports POSIX/XSI format strings with positions... (cached) yes
+checking whether btowc is declared without a macro... yes
+checking whether wctob is declared without a macro... yes
+checking whether mbsinit is declared without a macro... yes
+checking whether mbrtowc is declared without a macro... yes
+checking whether mbrlen is declared without a macro... yes
+checking whether mbsrtowcs is declared without a macro... yes
+checking whether mbsnrtowcs is declared without a macro... yes
+checking whether wcrtomb is declared without a macro... yes
+checking whether wcsrtombs is declared without a macro... yes
+checking whether wcsnrtombs is declared without a macro... yes
+checking whether wcwidth is declared without a macro... yes
+checking whether wmemchr is declared without a macro... yes
+checking whether wmemcmp is declared without a macro... yes
+checking whether wmemcpy is declared without a macro... yes
+checking whether wmemmove is declared without a macro... yes
+checking whether wmemset is declared without a macro... yes
+checking whether wcslen is declared without a macro... yes
+checking whether wcsnlen is declared without a macro... yes
+checking whether wcscpy is declared without a macro... yes
+checking whether wcpcpy is declared without a macro... yes
+checking whether wcsncpy is declared without a macro... yes
+checking whether wcpncpy is declared without a macro... yes
+checking whether wcscat is declared without a macro... yes
+checking whether wcsncat is declared without a macro... yes
+checking whether wcscmp is declared without a macro... yes
+checking whether wcsncmp is declared without a macro... yes
+checking whether wcscasecmp is declared without a macro... yes
+checking whether wcsncasecmp is declared without a macro... yes
+checking whether wcscoll is declared without a macro... yes
+checking whether wcsxfrm is declared without a macro... yes
+checking whether wcsdup is declared without a macro... yes
+checking whether wcschr is declared without a macro... yes
+checking whether wcsrchr is declared without a macro... yes
+checking whether wcscspn is declared without a macro... yes
+checking whether wcsspn is declared without a macro... yes
+checking whether wcspbrk is declared without a macro... yes
+checking whether wcsstr is declared without a macro... yes
+checking whether wcstok is declared without a macro... yes
+checking whether wcswidth is declared without a macro... yes
+checking for stdint.h... (cached) yes
+checking for a traditional french locale... none
+checking for a turkish Unicode locale... none
+checking whether fcntl is declared without a macro... yes
+checking whether openat is declared without a macro... yes
+checking whether fdopen sets errno... yes
+checking whether getdtablesize works... yes
+checking for getpagesize... yes
+checking whether getpagesize is declared... (cached) yes
+checking whether byte ordering is bigendian... (cached) no
+checking whether byte ordering is bigendian... (cached) no
+checking whether INT32_MAX < INTMAX_MAX... yes
+checking whether INT64_MAX == LONG_MAX... yes
+checking whether UINT32_MAX < UINTMAX_MAX... yes
+checking whether UINT64_MAX == ULONG_MAX... yes
+checking for ioctl... yes
+checking for ioctl with POSIX signature... no
+checking where to find the exponent in a 'double'... (cached) word 1 bit 20
+checking where to find the exponent in a 'float'... (cached) word 0 bit 23
+checking where to find the exponent in a 'long double'... (cached) unknown
+checking whether locale.h conforms to POSIX:2001... yes
+checking whether locale.h defines locale_t... yes
+checking whether struct lconv is properly defined... yes
+checking whether setlocale is declared without a macro... yes
+checking whether duplocale is declared without a macro... yes
+checking for setlocale... yes
+checking for uselocale... yes
+checking for pthread_rwlock_t... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking whether open recognizes a trailing slash... yes
+checking whether perror matches strerror... yes
+checking for putenv compatible with GNU and SVID... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking whether setenv validates arguments... yes
+checking for a traditional french locale... (cached) none
+checking for a french Unicode locale... none
+checking for a traditional japanese locale... none
+checking for a transitional chinese locale... none
+checking whether stat handles trailing slashes on directories... yes
+checking whether stat handles trailing slashes on files... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking whether symlink handles trailing slash correctly... yes
+checking whether <sys/ioctl.h> declares ioctl... yes
+checking whether ioctl is declared without a macro... yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking whether unsetenv obeys POSIX... yes
+checking for valgrind... (cached) valgrind
+checking whether self tests are run under valgrind... yes
+checking whether ln -s works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for fork... yes
+checking for getrusage... yes
+checking for getpwuid_r... yes
+checking for daemon... yes
+checking for getpid... yes
+checking for libpthread... yes
+checking how to link with libpthread... -lpthread
+checking whether to build libdane... yes
+checking for unbound library... no
+configure: WARNING:
+***
+*** libunbound was not found. Libdane will not be built.
+*** 
+checking for P11_KIT... no
+configure: WARNING:
+***
+*** p11-kit was not found. PKCS #11 support will be disabled.
+*** You may get it from http://p11-glue.freedesktop.org/p11-kit.html
+*** 
+checking for tss library... no
+configure: WARNING:
+***
+*** trousers was not found. TPM support will be disabled.
+*** 
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for sys/mman.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking sys/poll.h usability... yes
+checking sys/poll.h presence... yes
+checking for sys/poll.h... yes
+checking sys/procset.h usability... no
+checking sys/procset.h presence... no
+checking for sys/procset.h... no
+checking for sys/select.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking sys/stropts.h usability... yes
+checking sys/stropts.h presence... yes
+checking for sys/stropts.h... yes
+checking for sys/time.h... (cached) yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking for sys/wait.h... (cached) yes
+checking for dlfcn.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libgen.h usability... yes
+checking libgen.h presence... yes
+checking for libgen.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for memory.h... (cached) yes
+checking for netinet/in.h... (cached) yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking for stdbool.h... (cached) yes
+checking for sysexits.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for string.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for inttypes.h... (cached) yes
+checking for runetype.h... no
+checking for wchar.h... (cached) yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for int8_t... yes
+checking for uint8_t... yes
+checking for int16_t... yes
+checking for uint16_t... yes
+checking for int32_t... yes
+checking for uint32_t... yes
+checking for intptr_t... yes
+checking for uintptr_t... yes
+checking for uint_t... no
+checking for pid_t... (cached) yes
+checking for size_t... (cached) yes
+checking size of char*... 8
+checking size of int... (cached) 4
+checking size of long... (cached) 8
+checking size of short... 2
+checking for pathfind in -lgen... no
+checking for gettext in -lintl... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... (cached) yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for mmap... (cached) yes
+checking for canonicalize_file_name... yes
+checking for snprintf... (cached) yes
+checking for strdup... (cached) yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strsignal... yes
+checking for fchmod... yes
+checking for fstat... yes
+checking for chmod... yes
+checking for a sed that does not truncate output... (cached) /bin/sed
+configure: Using supplied libopts tearoff
+checking whether a reg expr header is specified... no
+checking whether with-libregex was specified... no
+checking whether with-libregex-cflags was specified... no
+checking whether with-libregex-libs was specified... no
+checking whether libregex functions properly... yes
+checking whether pathfind(3) works... no
+checking whether /dev/zero is readable device... crw-rw-rw- 1 root root 1, 5 Nov 25 23:25 /dev/zero
+checking whether we have a functional realpath(3C)... yes
+checking whether strftime() works... yes
+checking whether fopen accepts "b" mode... yes
+checking whether fopen accepts "t" mode... yes
+checking whether not wanting optional option args... yes
+checking for ssize_t... yes
+checking size of unsigned long int... 8
+checking size of unsigned int... 4
+checking whether to include zlib compression support... yes
+checking for libz... yes
+checking how to link with libz... -lz
+checking whether building Guile bindings... yes
+***
+*** Detecting GNU Guile...
+
+checking for guile-snarf... /usr/bin/guile-snarf
+checking for guile... /usr/bin/guile
+checking for guile-config... /usr/bin/guile-config
+checking for guile-tools... /usr/bin/guile-tools
+checking libguile compile flags... -pthread -I/usr/include/guile/2.0
+checking libguile link flags... -lguile-2.0 -lgc
+checking whether GNU Guile is recent enough... yes
+checking whether gcc supports -fgnu89-inline... yes
+checking for scm_gc_malloc_pointerless... yes
+checking the Guile effective version... 2.0
+***
+*** Checking dependencies for crywrap...
+
+checking for arpa/inet.h... (cached) yes
+checking for netinet/in.h... (cached) yes
+checking for sys/select.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/wait.h... (cached) yes
+checking return type of signal handlers... void
+checking for sys/select.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking for alarm... yes
+checking for atexit... yes
+checking for dup2... yes
+checking for epoll_create... yes
+checking for kqueue... no
+checking for memchr... yes
+checking for memset... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for regcomp... yes
+checking for scandir... (cached) yes
+checking for select... yes
+checking for socket... yes
+checking for strcasecmp... (cached) yes
+checking for strchr... (cached) yes
+checking for strdup... (cached) yes
+checking for strerror... yes
+checking for strncasecmp... (cached) yes
+checking for strrchr... (cached) yes
+checking for strstr... yes
+checking for strtoul... yes
+checking for uname... yes
+checking for LIBIDN... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating src/libopts/Makefile
+config.status: creating guile/pre-inst-guile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/credentials/Makefile
+config.status: creating doc/credentials/openpgp/Makefile
+config.status: creating doc/credentials/srp/Makefile
+config.status: creating doc/credentials/x509/Makefile
+config.status: creating doc/cyclo/Makefile
+config.status: creating doc/doxygen/Doxyfile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/latex/Makefile
+config.status: creating doc/manpages/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating doc/scripts/Makefile
+config.status: creating extra/Makefile
+config.status: creating extra/includes/Makefile
+config.status: creating libdane/Makefile
+config.status: creating libdane/includes/Makefile
+config.status: creating libdane/gnutls-dane.pc
+config.status: creating gl/Makefile
+config.status: creating gl/tests/Makefile
+config.status: creating guile/Makefile
+config.status: creating guile/modules/Makefile
+config.status: creating guile/src/Makefile
+config.status: creating guile/tests/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/accelerated/Makefile
+config.status: creating lib/accelerated/x86/Makefile
+config.status: creating lib/algorithms/Makefile
+config.status: creating lib/auth/Makefile
+config.status: creating lib/ext/Makefile
+config.status: creating lib/extras/Makefile
+config.status: creating lib/gnutls.pc
+config.status: creating lib/includes/Makefile
+config.status: creating lib/includes/gnutls/gnutls.h
+config.status: creating lib/minitasn1/Makefile
+config.status: creating lib/nettle/Makefile
+config.status: creating lib/opencdk/Makefile
+config.status: creating lib/openpgp/Makefile
+config.status: creating lib/x509/Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating src/crywrap/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/cert-tests/Makefile
+config.status: creating tests/dsa/Makefile
+config.status: creating tests/dtls/Makefile
+config.status: creating tests/srp/Makefile
+config.status: creating tests/ecdsa/Makefile
+config.status: creating tests/key-id/Makefile
+config.status: creating tests/openpgp-certs/Makefile
+config.status: creating tests/pkcs1-padding/Makefile
+config.status: creating tests/pkcs12-decode/Makefile
+config.status: creating tests/pkcs8-decode/Makefile
+config.status: creating tests/rsa-md5-collision/Makefile
+config.status: creating tests/safe-renegotiation/Makefile
+config.status: creating tests/scripts/Makefile
+config.status: creating tests/sha2/Makefile
+config.status: creating tests/slow/Makefile
+config.status: creating tests/suite/Makefile
+config.status: creating tests/userid/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing libtool commands
+configure: summary of build options:
+
+  version:              3.1.23 shared 49:3:21
+  Host/Target system:   x86_64-unknown-linux-gnu
+  Build system:         x86_64-unknown-linux-gnu
+  Install prefix:       /usr
+  Compiler:             gcc
+  CFlags:               -g -O2
+  Library types:        Shared=yes, Static=yes
+
+configure: External hardware support:
+
+  /dev/crypto:          no
+  Hardware accel:       x86-64
+  PKCS#11 support:      no
+  TPM support:          no
+
+configure: Optional features:
+(note that included applications might not compile properly
+if features are disabled)
+
+  DTLS-SRTP support:    yes
+  OCSP support:         yes
+  OpenPGP support:      yes
+  SRP support:          yes
+  PSK support:          yes
+  DHE support:          yes
+  ECDHE support:        yes
+  RSA-EXPORT support:   yes
+  Anon auth support:    yes
+  Heartbeat support:    yes
+
+configure: Optional applications:
+
+  crywrap app:          yes
+  local libopts:        yes
+  local libtasn1:       no
+
+configure: Optional libraries:
+
+  Guile wrappers:       yes
+  C++ library:          yes
+  DANE library:         no
+  OpenSSL compat:       yes
+
+configure: System files:
+
+  Trust store pkcs:     
+  Trust store file:     /etc/ssl/certs/ca-certificates.crt
+  Blacklist file:       
+  CRL file:             
+  DNSSEC root key file: /etc/unbound/root.key
+
+configure: WARNING:
+***
+*** The DNSSEC root key file in /etc/unbound/root.key was not found.
+*** This file is needed for the verification of DNSSEC responses.
+*** Use the command: unbound-anchor -a "/etc/unbound/root.key"
+*** to generate or update it.
+*** 
+Compiling gnutls
+make  all-recursive
+make[1]: Entering directory '/tmp/gnutls-3.1.23'
+Making all in gl
+make[2]: Entering directory '/tmp/gnutls-3.1.23/gl'
+  GEN      alloca.h
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      unused-parameter.h
+  GEN      time.h
+  GEN      sys/uio.h
+  GEN      sys/types.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      wchar.h
+  GEN      dirent.h
+  GEN      getopt.h
+  GEN      arpa/inet.h
+  GEN      iconv.h
+  GEN      math.h
+  GEN      netdb.h
+  GEN      signal.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      strings.h
+  GEN      string.h
+  GEN      sys/select.h
+  GEN      sys/socket.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+make  all-recursive
+make[3]: Entering directory '/tmp/gnutls-3.1.23/gl'
+Making all in tests
+make[4]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+  GEN      c++defs.h
+  GEN      arg-nonnull.h
+  GEN      warn-on-use.h
+  GEN      unused-parameter.h
+  GEN      fcntl.h
+  GEN      locale.h
+  GEN      inttypes.h
+  GEN      sys/ioctl.h
+make  all-recursive
+make[5]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+Making all in .
+make[6]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/gl'
+  CC       argp-ba.lo
+  CC       argp-eexst.lo
+  CC       argp-fs-xinl.lo
+  CC       argp-fmtstream.lo
+  CC       argp-help.lo
+  CC       argp-parse.lo
+  CC       argp-pin.lo
+  CC       argp-pv.lo
+  CC       argp-pvh.lo
+  CC       argp-xinl.lo
+  CC       base64.lo
+  CC       c-ctype.lo
+  CC       c-strcasecmp.lo
+  CC       c-strncasecmp.lo
+  CC       dirname-lgpl.lo
+  CC       basename-lgpl.lo
+  CC       stripslash.lo
+  CC       fd-hook.lo
+  CC       gettime.lo
+  CC       hash-pjw-bare.lo
+  CC       math.lo
+  CC       printf-frexp.lo
+  CC       printf-frexpl.lo
+  CC       progname.lo
+  CC       read-file.lo
+  CC       sockets.lo
+  CC       sys_socket.lo
+  CC       timespec.lo
+  CC       u64.lo
+  CC       unistd.lo
+  CC       version-etc.lo
+  CC       version-etc-fsf.lo
+  CC       xsize.lo
+  CC       asnprintf.lo
+  CC       fseterr.lo
+  CC       getopt.lo
+  CC       getopt1.lo
+  CC       isnanl.lo
+  CC       printf-args.lo
+  CC       printf-parse.lo
+  CC       vasnprintf.lo
+  CC       vfprintf.lo
+  CC       vprintf.lo
+  CC       glthread/threadlib.lo
+  CC       unistr/u8-mbtoucr.lo
+  CC       unistr/u8-uctomb.lo
+  CC       unistr/u8-uctomb-aux.lo
+  CCLD     libgnu.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+Making all in lib
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib'
+Making all in includes
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/includes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/includes'
+Making all in x509
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/x509'
+  CC       common.lo
+  CC       key_decode.lo
+  CC       key_encode.lo
+  CC       crl.lo
+  CC       crl_write.lo
+  CC       crq.lo
+  CC       dn.lo
+  CC       extensions.lo
+  CC       mpi.lo
+  CC       output.lo
+  CC       pbkdf2-sha1.lo
+  CC       pkcs12.lo
+  CC       pkcs12_bag.lo
+  CC       pkcs12_encr.lo
+  CC       pkcs7.lo
+  CC       privkey.lo
+  CC       privkey_pkcs8.lo
+  CC       privkey_openssl.lo
+  CC       rfc2818_hostname.lo
+  CC       sign.lo
+  CC       verify.lo
+  CC       x509.lo
+  CC       x509_dn.lo
+  CC       x509_write.lo
+  CC       verify-high.lo
+  CC       verify-high2.lo
+  CC       ocsp.lo
+  CC       ocsp_output.lo
+  CCLD     libgnutls_x509.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/x509'
+Making all in accelerated
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated'
+Making all in x86
+make[4]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated/x86'
+  CC       sha-padlock.lo
+  CC       aes-x86.lo
+  CC       hmac-padlock.lo
+  CC       aes-padlock.lo
+  CC       aes-gcm-padlock.lo
+  CC       aes-gcm-x86.lo
+  CCAS     appro-aes-x86-64.lo
+  CCAS     appro-aes-gcm-x86-64.lo
+  CCAS     padlock-x86-64.lo
+  CCAS     cpuid-x86-64.lo
+  CCLD     libx86.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated/x86'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated'
+  CC       accelerated.lo
+  CC       cryptodev.lo
+  CC       cryptodev-gcm.lo
+  CCLD     libaccelerated.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated'
+Making all in auth
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/auth'
+  CC       anon.lo
+  CC       cert.lo
+  CC       dhe.lo
+  CC       dh_common.lo
+  CC       dhe_psk.lo
+  CC       psk.lo
+  CC       psk_passwd.lo
+  CC       rsa.lo
+  CC       rsa_export.lo
+  CC       srp.lo
+  CC       srp_passwd.lo
+  CC       srp_rsa.lo
+  CC       srp_sb64.lo
+  CC       anon_ecdh.lo
+  CC       ecdhe.lo
+  CCLD     libgnutls_auth.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/auth'
+Making all in ext
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/ext'
+  CC       max_record.lo
+  CC       signature.lo
+  CC       server_name.lo
+  CC       cert_type.lo
+  CC       safe_renegotiation.lo
+  CC       session_ticket.lo
+  CC       srp.lo
+  CC       ecc.lo
+  CC       heartbeat.lo
+  CC       new_record_padding.lo
+  CC       status_request.lo
+  CC       srtp.lo
+  CCLD     libgnutls_ext.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/ext'
+Making all in algorithms
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/algorithms'
+  CC       ciphers.lo
+  CC       cert_types.lo
+  CC       ecc.lo
+  CC       ciphersuites.lo
+  CC       kx.lo
+  CC       mac.lo
+  CC       protocols.lo
+  CC       publickey.lo
+  CC       secparams.lo
+  CC       sign.lo
+  CCLD     libgnutls_alg.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/algorithms'
+Making all in extras
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/extras'
+  CC       randomart.lo
+  CCLD     libgnutls_extras.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/extras'
+Making all in opencdk
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/opencdk'
+  CC       armor.lo
+  CC       kbnode.lo
+  CC       hash.lo
+  CC       sig-check.lo
+  CC       keydb.lo
+  CC       stream.lo
+  CC       pubkey.lo
+  CC       write-packet.lo
+  CC       misc.lo
+  CC       seskey.lo
+  CC       literal.lo
+  CC       new-packet.lo
+  CC       read-packet.lo
+  CCLD     libminiopencdk.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/opencdk'
+Making all in openpgp
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/openpgp'
+  CC       pgp.lo
+  CC       extras.lo
+  CC       pgpverify.lo
+  CC       compat.lo
+  CC       privkey.lo
+  CC       output.lo
+  CC       gnutls_openpgp.lo
+  CCLD     libgnutls_openpgp.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/openpgp'
+Making all in nettle
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/nettle'
+  CC       pk.lo
+  CC       cipher.lo
+  CC       mac.lo
+  CC       mpi.lo
+  CC       rnd.lo
+  CC       init.lo
+  CC       egd.lo
+  CC       multi.lo
+  CC       wmnaf.lo
+  CC       ecc_free.lo
+  CC       ecc_make_key.lo
+  CC       ecc_shared_secret.lo
+  CC       ecc_map.lo
+  CC       ecc_mulmod.lo
+  CC       ecc_mulmod_cached.lo
+  CC       ecc_points.lo
+  CC       ecc_projective_dbl_point_3.lo
+  CC       ecc_projective_isneutral.lo
+  CC       ecc_projective_check_point.lo
+  CC       ecc_projective_negate_point.lo
+  CC       ecc_projective_add_point_ng.lo
+  CC       ecc_sign_hash.lo
+  CC       ecc_verify_hash.lo
+  CCLD     libcrypto.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/nettle'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib'
+  CC       gnutls_range.lo
+  CC       gnutls_record.lo
+  CC       debug.lo
+  CC       gnutls_compress.lo
+  CC       gnutls_cipher.lo
+  CC       gnutls_mbuffers.lo
+  CC       gnutls_buffers.lo
+  CC       gnutls_handshake.lo
+  CC       gnutls_num.lo
+  CC       gnutls_errors.lo
+  CC       gnutls_dh.lo
+  CC       gnutls_kx.lo
+  CC       gnutls_priority.lo
+  CC       gnutls_hash_int.lo
+  CC       gnutls_cipher_int.lo
+  CC       gnutls_session.lo
+  CC       gnutls_db.lo
+  CC       x509_b64.lo
+  CC       gnutls_extensions.lo
+  CC       gnutls_auth.lo
+  CC       gnutls_v2_compat.lo
+  CC       gnutls_datum.lo
+  CC       gnutls_session_pack.lo
+  CC       gnutls_mpi.lo
+  CC       gnutls_pk.lo
+  CC       gnutls_cert.lo
+  CC       gnutls_global.lo
+  CC       gnutls_constate.lo
+  CC       gnutls_anon_cred.lo
+  CC       pkix_asn1_tab.lo
+  CC       gnutls_asn1_tab.lo
+  CC       gnutls_mem.lo
+  CC       gnutls_ui.lo
+  CC       gnutls_sig.lo
+  CC       gnutls_ecc.lo
+  CC       gnutls_dh_primes.lo
+  CC       gnutls_alert.lo
+  CC       system.lo
+  CC       gnutls_str.lo
+  CC       gnutls_state.lo
+  CC       gnutls_rsa_export.lo
+  CC       gnutls_x509.lo
+  CC       gnutls_helper.lo
+  CC       gnutls_supplemental.lo
+  CC       random.lo
+  CC       crypto-api.lo
+  CC       gnutls_privkey.lo
+  CC       gnutls_pcert.lo
+  CC       gnutls_pubkey.lo
+  CC       locks.lo
+  CC       gnutls_dtls.lo
+  CC       system_override.lo
+  CC       crypto-backend.lo
+  CC       verify-tofu.lo
+  CC       pin.lo
+  CC       tpm.lo
+  CC       gnutls_srp.lo
+  CC       gnutls_psk.lo
+  CXX      libgnutlsxx_la-gnutlsxx.lo
+  CC       xssl.lo
+  CC       xssl_getline.lo
+  CCLD     libgnutls.la
+copying selected object files to avoid basename conflicts...
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     libgnutls-xssl.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CXXLD    libgnutlsxx.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib'
+Making all in extra
+make[2]: Entering directory '/tmp/gnutls-3.1.23/extra'
+Making all in includes
+make[3]: Entering directory '/tmp/gnutls-3.1.23/extra/includes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/extra/includes'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/extra'
+  CC       gnutls_openssl.lo
+  CC       openssl_compat.lo
+  CCLD     libgnutls-openssl.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/extra'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/extra'
+Making all in po
+make[2]: Entering directory '/tmp/gnutls-3.1.23/po'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/po'
+Making all in src
+make[2]: Entering directory '/tmp/gnutls-3.1.23/src'
+make  all-recursive
+make[3]: Entering directory '/tmp/gnutls-3.1.23/src'
+Making all in crywrap
+make[4]: Entering directory '/tmp/gnutls-3.1.23/src/crywrap'
+  CC       crywrap.o
+crywrap.c: In function '_crywrap_do_one':
+crywrap.c:867:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         (gnutls_transport_ptr_t)insock,
+         ^
+crywrap.c:868:9: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         (gnutls_transport_ptr_t)outsock);
+         ^
+crywrap.c: In function '_crywrap_setup_pidfile':
+crywrap.c:819:3: warning: ignoring return value of 'fchown', declared with attribute warn_unused_result [-Wunused-result]
+   fchown (pidfilefd, config->uid, (gid_t)-1);
+   ^
+crywrap.c:823:3: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write (pidfilefd, mypid, strlen (mypid));
+   ^
+  CCLD     crywrap
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/src/crywrap'
+Making all in libopts
+make[4]: Entering directory '/tmp/gnutls-3.1.23/src/libopts'
+  CC       libopts_la-libopts.lo
+In file included from libopts.c:4:0:
+enum.c: In function 'enum_err':
+ao-strs.h:70:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define ENUM_ERR_LINE         (ao_strs_strtable+304)
+                                ^
+enum.c:112:38: note: in expansion of macro 'ENUM_ERR_LINE'
+             fprintf(option_usage_fp, ENUM_ERR_LINE, *(paz_names++));
+                                      ^
+ao-strs.h:72:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define ENUM_ERR_WIDTH        (ao_strs_strtable+310)
+                                ^
+enum.c:135:23: note: in expansion of macro 'ENUM_ERR_WIDTH'
+         sprintf(zFmt, ENUM_ERR_WIDTH, (int)max_len);
+                       ^
+ao-strs.h:118:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NLSTR_SPACE_FMT       (ao_strs_strtable+455)
+                                ^
+enum.c:148:42: note: in expansion of macro 'NLSTR_SPACE_FMT'
+                 fprintf(option_usage_fp, NLSTR_SPACE_FMT, *(paz_names++));
+                                          ^
+ao-strs.h:116:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NLSTR_FMT             (ao_strs_strtable+451)
+                                ^
+enum.c:155:34: note: in expansion of macro 'NLSTR_FMT'
+         fprintf(option_usage_fp, NLSTR_FMT, *paz_names);
+                                  ^
+enum.c: In function 'optionEnumerationVal':
+ao-strs.h:88:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define INVALID_FMT           (ao_strs_strtable+356)
+                                ^
+enum.c:307:20: note: in expansion of macro 'INVALID_FMT'
+             printf(INVALID_FMT, ix);
+                    ^
+find.c: In function 'opt_ambiguities':
+ao-strs.h:326:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zambig_file           (ao_strs_strtable+4)
+                                ^
+find.c:114:29: note: in expansion of macro 'zambig_file'
+             fprintf(stderr, zambig_file, hyph, pOD->pz_Name);
+                             ^
+ao-strs.h:326:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zambig_file           (ao_strs_strtable+4)
+                                ^
+find.c:119:29: note: in expansion of macro 'zambig_file'
+             fprintf(stderr, zambig_file, hyph, pOD->pz_DisableName);
+                             ^
+find.c: In function 'opt_set':
+ao-strs.h:180:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SET_OFF_FMT           (ao_strs_strtable+578)
+                                ^
+find.c:219:29: note: in expansion of macro 'SET_OFF_FMT'
+             fprintf(stderr, SET_OFF_FMT, pOD->pzText);
+                             ^
+find.c: In function 'opt_find_short':
+ao-strs.h:180:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SET_OFF_FMT           (ao_strs_strtable+578)
+                                ^
+find.c:432:37: note: in expansion of macro 'SET_OFF_FMT'
+                     fprintf(stderr, SET_OFF_FMT, pRes->pzText);
+                                     ^
+makeshell.c: In function 'optionParseShell':
+ao-strs.h:102:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LOPT_ARG_FMT          (ao_strs_strtable+2912)
+                                ^
+makeshell.c:147:16: note: in expansion of macro 'LOPT_ARG_FMT'
+         printf(LOPT_ARG_FMT,    opts->pzPROGNAME);
+                ^
+ao-strs.h:102:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LOPT_ARG_FMT          (ao_strs_strtable+2912)
+                                ^
+makeshell.c:157:16: note: in expansion of macro 'LOPT_ARG_FMT'
+         printf(LOPT_ARG_FMT,    opts->pzPROGNAME);
+                ^
+ao-strs.h:152:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPT_ARG_FMT           (ao_strs_strtable+4591)
+                                ^
+makeshell.c:166:16: note: in expansion of macro 'OPT_ARG_FMT'
+         printf(OPT_ARG_FMT,     opts->pzPROGNAME);
+                ^
+ao-strs.h:102:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LOPT_ARG_FMT          (ao_strs_strtable+2912)
+                                ^
+makeshell.c:178:16: note: in expansion of macro 'LOPT_ARG_FMT'
+         printf(LOPT_ARG_FMT,    opts->pzPROGNAME);
+                ^
+ao-strs.h:152:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPT_ARG_FMT           (ao_strs_strtable+4591)
+                                ^
+makeshell.c:184:16: note: in expansion of macro 'OPT_ARG_FMT'
+         printf(OPT_ARG_FMT,     opts->pzPROGNAME);
+                ^
+ao-strs.h:192:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SHOW_PROG_ENV         (ao_strs_strtable+605)
+                                ^
+makeshell.c:195:16: note: in expansion of macro 'SHOW_PROG_ENV'
+         printf(SHOW_PROG_ENV, opts->pzPROGNAME);
+                ^
+makeshell.c: In function 'emit_var_text':
+ao-strs.h:182:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SET_TEXT_FMT          (ao_strs_strtable+585)
+                                ^
+makeshell.c:230:12: note: in expansion of macro 'SET_TEXT_FMT'
+     printf(SET_TEXT_FMT, prog, var);
+            ^
+makeshell.c: In function 'emit_usage':
+ao-strs.h:200:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define TIME_FMT              (ao_strs_strtable+650)
+                                ^
+makeshell.c:373:47: note: in expansion of macro 'TIME_FMT'
+             strftime(tm_nm_buf, AO_NAME_SIZE, TIME_FMT, ptm );
+                                               ^
+ao-strs.h:190:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SHELL_MAGIC           (ao_strs_strtable+598)
+                                ^
+makeshell.c:381:20: note: in expansion of macro 'SHELL_MAGIC'
+             printf(SHELL_MAGIC, shell_prog);
+                    ^
+ao-strs.h:168:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define PREAMBLE_FMT          (ao_strs_strtable+5819)
+                                ^
+makeshell.c:383:16: note: in expansion of macro 'PREAMBLE_FMT'
+         printf(PREAMBLE_FMT, START_MARK, out_nm, tm_nm_buf);
+                ^
+ao-strs.h:64:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define END_PRE_FMT           (ao_strs_strtable+908)
+                                ^
+makeshell.c:386:12: note: in expansion of macro 'END_PRE_FMT'
+     printf(END_PRE_FMT, opts->pzPROGNAME);
+            ^
+makeshell.c: In function 'emit_wrapup':
+ao-strs.h:78:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define FINISH_LOOP           (ao_strs_strtable+1958)
+                                ^
+makeshell.c:436:12: note: in expansion of macro 'FINISH_LOOP'
+     printf(FINISH_LOOP, opts->pzPROGNAME);
+            ^
+makeshell.c: In function 'emit_action':
+ao-strs.h:56:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define ECHO_N_EXIT           (ao_strs_strtable+1791)
+                                ^
+makeshell.c:532:16: note: in expansion of macro 'ECHO_N_EXIT'
+         printf(ECHO_N_EXIT, opts->pzPROGNAME, VER_STR);
+                ^
+ao-strs.h:164:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define PAGE_USAGE_TEXT       (ao_strs_strtable+5745)
+                                ^
+makeshell.c:535:16: note: in expansion of macro 'PAGE_USAGE_TEXT'
+         printf(PAGE_USAGE_TEXT, opts->pzPROGNAME);
+                ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:538:16: note: in expansion of macro 'LVL3_CMD'
+         printf(LVL3_CMD, NO_LOAD_WARN);
+                ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:539:16: note: in expansion of macro 'LVL3_CMD'
+         printf(LVL3_CMD, YES_NEED_OPT_ARG);
+                ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:544:20: note: in expansion of macro 'LVL3_CMD'
+             printf(LVL3_CMD, NO_SAVE_OPTS);
+                    ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:545:20: note: in expansion of macro 'LVL3_CMD'
+             printf(LVL3_CMD, OK_NEED_OPT_ARG);
+                    ^
+ao-strs.h:56:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define ECHO_N_EXIT           (ao_strs_strtable+1791)
+                                ^
+makeshell.c:547:20: note: in expansion of macro 'ECHO_N_EXIT'
+             printf(ECHO_N_EXIT, opts->pzPROGNAME, LONG_USE_STR);
+                    ^
+ao-strs.h:184:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SGL_ARG_FMT           (ao_strs_strtable+6015)
+                                ^
+makeshell.c:551:20: note: in expansion of macro 'SGL_ARG_FMT'
+             printf(SGL_ARG_FMT, opts->pzPROGNAME, od->pz_NAME);
+                    ^
+ao-strs.h:50:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define CHK_MAX_COUNT         (ao_strs_strtable+1427)
+                                ^
+makeshell.c:554:24: note: in expansion of macro 'CHK_MAX_COUNT'
+                 printf(CHK_MAX_COUNT, opts->pzPROGNAME,
+                        ^
+ao-strs.h:110:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define MULTI_ARG_FMT         (ao_strs_strtable+3691)
+                                ^
+makeshell.c:557:20: note: in expansion of macro 'MULTI_ARG_FMT'
+             printf(MULTI_ARG_FMT, opts->pzPROGNAME, od->pz_NAME);
+                    ^
+ao-strs.h:176:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SET_MULTI_ARG         (ao_strs_strtable+5925)
+                                ^
+makeshell.c:564:20: note: in expansion of macro 'SET_MULTI_ARG'
+             printf(SET_MULTI_ARG, opts->pzPROGNAME, od->pz_NAME);
+                    ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:565:20: note: in expansion of macro 'LVL3_CMD'
+             printf(LVL3_CMD, NO_ARG_NEEDED);
+                    ^
+ao-strs.h:176:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SET_MULTI_ARG         (ao_strs_strtable+5925)
+                                ^
+makeshell.c:568:20: note: in expansion of macro 'SET_MULTI_ARG'
+             printf(SET_MULTI_ARG,  opts->pzPROGNAME, od->pz_NAME);
+                    ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:569:20: note: in expansion of macro 'LVL3_CMD'
+             printf(LVL3_CMD, OK_NEED_OPT_ARG);
+                    ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:572:20: note: in expansion of macro 'LVL3_CMD'
+             printf(LVL3_CMD, YES_NEED_OPT_ARG);
+                    ^
+makeshell.c: In function 'emit_inaction':
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:582:16: note: in expansion of macro 'LVL3_CMD'
+         printf(LVL3_CMD, NO_SUPPRESS_LOAD);
+                ^
+ao-strs.h:132:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NO_SGL_ARG_FMT        (ao_strs_strtable+4171)
+                                ^
+makeshell.c:585:16: note: in expansion of macro 'NO_SGL_ARG_FMT'
+         printf(NO_SGL_ARG_FMT, opts->pzPROGNAME,
+                ^
+ao-strs.h:128:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NO_MULTI_ARG_FMT      (ao_strs_strtable+4030)
+                                ^
+makeshell.c:588:16: note: in expansion of macro 'NO_MULTI_ARG_FMT'
+         printf(NO_MULTI_ARG_FMT, opts->pzPROGNAME,
+                ^
+ao-strs.h:104:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define LVL3_CMD              (ao_strs_strtable+406)
+                                ^
+makeshell.c:591:12: note: in expansion of macro 'LVL3_CMD'
+     printf(LVL3_CMD, NO_ARG_NEEDED);
+            ^
+makeshell.c: In function 'emit_flag':
+ao-strs.h:274:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptionFlag           (ao_strs_strtable+791)
+                                ^
+makeshell.c:614:16: note: in expansion of macro 'zOptionFlag'
+         printf(zOptionFlag, od->optValue);
+                ^
+makeshell.c: In function 'emit_match_expr':
+ao-strs.h:278:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptionPartName       (ao_strs_strtable+823)
+                                ^
+makeshell.c:689:20: note: in expansion of macro 'zOptionPartName'
+             printf(zOptionPartName, name_bf);
+                    ^
+ao-strs.h:276:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptionFullName       (ao_strs_strtable+807)
+                                ^
+makeshell.c:699:12: note: in expansion of macro 'zOptionFullName'
+     printf(zOptionFullName, name);
+            ^
+nested.c: In function 'emit_special_char':
+ao-strs.h:218:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define XML_HEX_BYTE_FMT      (ao_strs_strtable+715)
+                                ^
+nested.c:903:17: note: in expansion of macro 'XML_HEX_BYTE_FMT'
+     fprintf(fp, XML_HEX_BYTE_FMT, (ch & 0xFF));
+                 ^
+pgusage.c: In function 'open_tmp_usage':
+ao-strs.h:204:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define TMP_FILE_FMT          (ao_strs_strtable+672)
+                                ^
+pgusage.c:49:28: note: in expansion of macro 'TMP_FILE_FMT'
+         snprintf(bf, bfsz, TMP_FILE_FMT, tmpdir, my_pid);
+                            ^
+ao-strs.h:204:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define TMP_FILE_FMT          (ao_strs_strtable+672)
+                                ^
+pgusage.c:49:28: note: in expansion of macro 'TMP_FILE_FMT'
+         snprintf(bf, bfsz, TMP_FILE_FMT, tmpdir, my_pid);
+                            ^
+pgusage.c: In function 'mk_pager_cmd':
+ao-strs.h:162:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define PAGE_USAGE_FMT        (ao_strs_strtable+853)
+                                ^
+pgusage.c:90:29: note: in expansion of macro 'PAGE_USAGE_FMT'
+         snprintf(res, bfsz, PAGE_USAGE_FMT, pager, fname);
+                             ^
+ao-strs.h:162:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define PAGE_USAGE_FMT        (ao_strs_strtable+853)
+                                ^
+pgusage.c:90:29: note: in expansion of macro 'PAGE_USAGE_FMT'
+         snprintf(res, bfsz, PAGE_USAGE_FMT, pager, fname);
+                             ^
+putshell.c: In function 'optionQuoteString':
+ao-strs.h:106:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define MK_STR_OCT_FMT        (ao_strs_strtable+422)
+                                ^
+putshell.c:190:26: note: in expansion of macro 'MK_STR_OCT_FMT'
+             sprintf(out, MK_STR_OCT_FMT, ch);
+                          ^
+putshell.c: In function 'print_enumeration':
+ao-strs.h:156:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPT_VAL_FMT           (ao_strs_strtable+533)
+                                ^
+putshell.c:277:12: note: in expansion of macro 'OPT_VAL_FMT'
+     printf(OPT_VAL_FMT, pOpts->pzPROGNAME, pOD->pz_NAME);
+            ^
+ao-strs.h:174:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define QUOT_ARG_FMT          (ao_strs_strtable+573)
+                                ^
+putshell.c:283:12: note: in expansion of macro 'QUOT_ARG_FMT'
+     printf(QUOT_ARG_FMT, pOD->optArg.argString);
+            ^
+ao-strs.h:154:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPT_END_FMT           (ao_strs_strtable+518)
+                                ^
+putshell.c:288:12: note: in expansion of macro 'OPT_END_FMT'
+     printf(OPT_END_FMT, pOpts->pzPROGNAME, pOD->pz_NAME);
+            ^
+putshell.c: In function 'print_membership':
+ao-strs.h:268:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptNumFmt            (ao_strs_strtable+1354)
+                                ^
+putshell.c:297:12: note: in expansion of macro 'zOptNumFmt'
+     printf(zOptNumFmt, pOpts->pzPROGNAME, pOD->pz_NAME,
+            ^
+ao-strs.h:194:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define SHOW_VAL_FMT          (ao_strs_strtable+625)
+                                ^
+putshell.c:315:16: note: in expansion of macro 'SHOW_VAL_FMT'
+         printf(SHOW_VAL_FMT, (unsigned long)val);
+                ^
+putshell.c: In function 'print_stacked_arg':
+ao-strs.h:262:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptCookieCt          (ao_strs_strtable+1251)
+                                ^
+putshell.c:330:12: note: in expansion of macro 'zOptCookieCt'
+     printf(zOptCookieCt, pOpts->pzPROGNAME, pOD->pz_NAME, ct);
+            ^
+ao-strs.h:46:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define ARG_BY_NUM_FMT        (ao_strs_strtable+267)
+                                ^
+putshell.c:333:16: note: in expansion of macro 'ARG_BY_NUM_FMT'
+         printf(ARG_BY_NUM_FMT, pOpts->pzPROGNAME, pOD->pz_NAME,
+                ^
+ao-strs.h:74:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define EXPORT_ARG_FMT        (ao_strs_strtable+317)
+                                ^
+putshell.c:336:16: note: in expansion of macro 'EXPORT_ARG_FMT'
+         printf(EXPORT_ARG_FMT, pOpts->pzPROGNAME, pOD->pz_NAME,
+                ^
+putshell.c: In function 'optionPutShell':
+ao-strs.h:264:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptCtFmt             (ao_strs_strtable+1290)
+                                ^
+putshell.c:375:12: note: in expansion of macro 'zOptCtFmt'
+     printf(zOptCtFmt, pOpts->curOptIdx-1);
+            ^
+ao-strs.h:238:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zEquivMode            (ao_strs_strtable+1171)
+                                ^
+putshell.c:403:20: note: in expansion of macro 'zEquivMode'
+             printf(zEquivMode, pOpts->pzPROGNAME, pOD->pz_NAME, p->pz_NAME);
+                    ^
+ao-strs.h:266:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptDisabl            (ao_strs_strtable+1321)
+                                ^
+putshell.c:440:20: note: in expansion of macro 'zOptDisabl'
+             printf(zOptDisabl, pOpts->pzPROGNAME, pOD->pz_NAME,
+                    ^
+ao-strs.h:268:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptNumFmt            (ao_strs_strtable+1354)
+                                ^
+putshell.c:451:20: note: in expansion of macro 'zOptNumFmt'
+             printf(zOptNumFmt, pOpts->pzPROGNAME, pOD->pz_NAME,
+                    ^
+ao-strs.h:244:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zFullOptFmt           (ao_strs_strtable+1216)
+                                ^
+putshell.c:471:20: note: in expansion of macro 'zFullOptFmt'
+             printf(zFullOptFmt, pOpts->pzPROGNAME, pOD->pz_NAME,
+                    ^
+ao-strs.h:268:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zOptNumFmt            (ao_strs_strtable+1354)
+                                ^
+putshell.c:483:20: note: in expansion of macro 'zOptNumFmt'
+             printf(zOptNumFmt, pOpts->pzPROGNAME, pOD->pz_NAME,
+                    ^
+ao-strs.h:156:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPT_VAL_FMT           (ao_strs_strtable+533)
+                                ^
+putshell.c:491:16: note: in expansion of macro 'OPT_VAL_FMT'
+         printf(OPT_VAL_FMT, pOpts->pzPROGNAME, pOD->pz_NAME);
+                ^
+ao-strs.h:154:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPT_END_FMT           (ao_strs_strtable+518)
+                                ^
+putshell.c:493:16: note: in expansion of macro 'OPT_END_FMT'
+         printf(OPT_END_FMT, pOpts->pzPROGNAME, pOD->pz_NAME);
+                ^
+save.c: In function 'prt_value':
+ao-strs.h:136:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NULL_ATR_FMT          (ao_strs_strtable+479)
+                                ^
+save.c:351:21: note: in expansion of macro 'NULL_ATR_FMT'
+         fprintf(fp, NULL_ATR_FMT, ovp->pzName);
+                     ^
+ao-strs.h:212:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define TYPE_ATR_FMT          (ao_strs_strtable+694)
+                                ^
+save.c:366:25: note: in expansion of macro 'TYPE_ATR_FMT'
+             fprintf(fp, TYPE_ATR_FMT, ovp->pzName, typ);
+                         ^
+ao-strs.h:68:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define END_XML_FMT           (ao_strs_strtable+297)
+                                ^
+save.c:386:25: note: in expansion of macro 'END_XML_FMT'
+             fprintf(fp, END_XML_FMT, ovp->pzName);
+                         ^
+ao-strs.h:138:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NUMB_ATR_FMT          (ao_strs_strtable+1105)
+                                ^
+save.c:392:21: note: in expansion of macro 'NUMB_ATR_FMT'
+         fprintf(fp, NUMB_ATR_FMT, ovp->pzName, ovp->v.longVal);
+                     ^
+ao-strs.h:48:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define BOOL_ATR_FMT          (ao_strs_strtable+876)
+                                ^
+save.c:396:21: note: in expansion of macro 'BOOL_ATR_FMT'
+         fprintf(fp, BOOL_ATR_FMT, ovp->pzName,
+                     ^
+save.c: In function 'prt_string':
+ao-strs.h:148:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPEN_XML_FMT          (ao_strs_strtable+506)
+                                ^
+save.c:411:17: note: in expansion of macro 'OPEN_XML_FMT'
+     fprintf(fp, OPEN_XML_FMT, name);
+                 ^
+ao-strs.h:68:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define END_XML_FMT           (ao_strs_strtable+297)
+                                ^
+save.c:439:17: note: in expansion of macro 'END_XML_FMT'
+     fprintf(fp, END_XML_FMT, name);
+                 ^
+save.c: In function 'prt_val_list':
+ao-strs.h:146:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define OPEN_CLOSE_FMT        (ao_strs_strtable+479)
+                                ^
+save.c:459:21: note: in expansion of macro 'OPEN_CLOSE_FMT'
+         fprintf(fp, OPEN_CLOSE_FMT, name);
+                     ^
+ao-strs.h:114:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NESTED_OPT_FMT        (ao_strs_strtable+433)
+                                ^
+save.c:463:17: note: in expansion of macro 'NESTED_OPT_FMT'
+     fprintf(fp, NESTED_OPT_FMT, name);
+                 ^
+save.c: In function 'prt_nested':
+ao-strs.h:114:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define NESTED_OPT_FMT        (ao_strs_strtable+433)
+                                ^
+save.c:503:21: note: in expansion of macro 'NESTED_OPT_FMT'
+         fprintf(fp, NESTED_OPT_FMT, p->pz_Name);
+                     ^
+save.c: In function 'open_sv_file':
+ao-strs.h:280:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zPresetFile           (ao_strs_strtable+96)
+                                ^
+save.c:556:21: note: in expansion of macro 'zPresetFile'
+         fprintf(fp, zPresetFile, time_str);
+                     ^
+usage.c: In function 'print_usage_details':
+ao-strs.h:242:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zFmtFmt               (ao_strs_strtable+33)
+                                ^
+usage.c:352:35: note: in expansion of macro 'zFmtFmt'
+             sprintf(line_fmt_buf, zFmtFmt, flen);
+                                   ^
+ao-strs.h:242:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define zFmtFmt               (ao_strs_strtable+33)
+                                ^
+usage.c:357:35: note: in expansion of macro 'zFmtFmt'
+             sprintf(line_fmt_buf, zFmtFmt, flen);
+                                   ^
+usage.c: In function 'print_one_paragraph':
+ao-strs.h:170:32: warning: embedded '\0' in format [-Wformat-contains-nul]
+ #define PUTS_FMT              (ao_strs_strtable+554)
+                                ^
+usage.c:437:21: note: in expansion of macro 'PUTS_FMT'
+         fprintf(fp, PUTS_FMT, t);
+                     ^
+  CCLD     libopts.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/src/libopts'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/src'
+  CC       libcmd_srp_la-srptool-args.lo
+  CC       libcmd_psk_la-psk-args.lo
+  CC       libcmd_ocsp_la-ocsptool-args.lo
+  CC       libcmd_serv_la-serv-args.lo
+  CC       libcmd_cli_la-cli-args.lo
+  CC       libcmd_cli_debug_la-cli-debug-args.lo
+  CC       libcmd_certtool_la-certtool-args.lo
+  CC       libcmd_certtool_la-certtool-cfg.lo
+  CC       libcmd_danetool_la-danetool-args.lo
+  CC       libcmd_danetool_la-certtool-cfg.lo
+  CC       psk.o
+  CC       cli-debug.o
+  CC       tests.o
+cli-debug.c: In function 'main':
+cli-debug.c:286:40: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       gnutls_transport_set_ptr (state, (gnutls_transport_ptr_t)
+                                        ^
+  CC       socket.o
+  CC       common.o
+  CC       certtool.o
+  CC       certtool-common.o
+certtool-common.c: In function 'print_head':
+certtool-common.c:660:9: warning: ignoring return value of 'asprintf', declared with attribute warn_unused_result [-Wunused-result]
+         asprintf(&ntxt, "const unsigned char %s[%u] =", txt, size);
+         ^
+certtool-common.c:662:9: warning: ignoring return value of 'asprintf', declared with attribute warn_unused_result [-Wunused-result]
+         asprintf(&ntxt, "const unsigned char %s[] =\n", txt);
+         ^
+  CC       certtool-extras.o
+  CC       srptool.o
+  CC       ocsptool.o
+  CC       ocsptool-common.o
+  CC       serv.o
+  CC       udp-serv.o
+  CC       cli.o
+  CC       benchmark-cipher.o
+cli.c: In function 'psk_callback':
+cli.c:1339:7: warning: ignoring return value of 'getline', declared with attribute warn_unused_result [-Wunused-result]
+       getline (&tmp, &n, stdin);
+       ^
+  CC       benchmark.o
+  CC       benchmark-tls.o
+  CC       danetool.o
+  CCLD     libcmd-srp.la
+  CCLD     libcmd-psk.la
+  CCLD     libcmd-ocsp.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     libcmd-serv.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     libcmd-cli.la
+  CCLD     libcmd-cli-debug.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     libcmd-certtool.la
+  CCLD     libcmd-danetool.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     psktool
+  CCLD     srptool
+ar: `u' modifier ignored since `D' is the default (see `U')
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     ocsptool
+  CCLD     gnutls-serv
+  CCLD     gnutls-cli
+  CCLD     danetool
+  CCLD     gnutls-cli-debug
+  CCLD     certtool
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/src'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/src'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/src'
+Making all in doc
+make[2]: Entering directory '/tmp/gnutls-3.1.23/doc'
+make  all-recursive
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc'
+Making all in examples
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/examples'
+  CC       ex-alert.lo
+  CC       ex-pkcs12.lo
+  CC       ex-session-info.lo
+  CC       ex-x509-info.lo
+  CC       ex-verify.lo
+  CC       tcp.lo
+  CC       udp.lo
+  CC       ex-pkcs11-list.lo
+  CC       verify.lo
+  CC       ex-verify-ssh.lo
+  CC       ex-client-resume.o
+  CC       ex-client-dtls.o
+  CC       ex-cert-select.o
+  CC       ex-client-x509.o
+  CC       ex-serv-dtls.o
+  CC       ex-client-xssl1.o
+  CC       ex-client-xssl2.o
+ex-client-xssl2.c: In function 'main':
+ex-client-xssl2.c:57:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+                          (gnutls_transport_ptr_t)fd,
+                          ^
+ex-client-xssl1.c: In function 'main':
+ex-client-xssl1.c:42:26: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+                          (gnutls_transport_ptr_t)fd,
+                          ^
+  CC       print-ciphersuites.o
+  CXX      ex-cxx.o
+  CC       ex-client-anon.o
+  CC       ex-serv-anon.o
+  CC       ex-serv-pgp.o
+  CC       ex-client-psk.o
+  CC       ex-serv-psk.o
+  CC       ex-client-srp.o
+  CC       ex-serv-srp.o
+  CC       ex-ocsp-client.o
+  CCLD     libexamples.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+  CCLD     ex-client-resume
+  CCLD     ex-client-dtls
+  CCLD     ex-cert-select
+  CCLD     ex-client-x509
+  CCLD     ex-serv-dtls
+  CCLD     ex-client-xssl1
+  CCLD     ex-client-xssl2
+  CCLD     print-ciphersuites
+  CXXLD    ex-cxx
+  CCLD     ex-client-anon
+  CCLD     ex-serv-anon
+  CCLD     ex-serv-pgp
+  CCLD     ex-client-psk
+  CCLD     ex-serv-psk
+  CCLD     ex-client-srp
+  CCLD     ex-serv-srp
+  CCLD     ex-ocsp-client
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/examples'
+Making all in cyclo
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/cyclo'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/cyclo'
+Making all in scripts
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/scripts'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/scripts'
+Making all in manpages
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/manpages'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/manpages'
+Making all in credentials
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials'
+Making all in openpgp
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/openpgp'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/openpgp'
+Making all in srp
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/srp'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/srp'
+Making all in x509
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/x509'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/x509'
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials'
+Making all in latex
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/latex'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/latex'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+Making all in tests
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests'
+Making all in .
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests'
+  CC       utils.lo
+  CCLD     libutils.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests'
+Making all in rsa-md5-collision
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/rsa-md5-collision'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/rsa-md5-collision'
+Making all in pkcs1-padding
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs1-padding'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs1-padding'
+Making all in pkcs8-decode
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs8-decode'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs8-decode'
+Making all in pkcs12-decode
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs12-decode'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs12-decode'
+Making all in userid
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/userid'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/userid'
+Making all in cert-tests
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/cert-tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/cert-tests'
+Making all in key-id
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/key-id'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/key-id'
+Making all in sha2
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/sha2'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/sha2'
+Making all in safe-renegotiation
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/safe-renegotiation'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/safe-renegotiation'
+Making all in dsa
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/dsa'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/dsa'
+Making all in scripts
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/scripts'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/scripts'
+Making all in ecdsa
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/ecdsa'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/ecdsa'
+Making all in slow
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/slow'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/slow'
+Making all in dtls
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/dtls'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/dtls'
+Making all in srp
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/srp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/srp'
+Making all in openpgp-certs
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/openpgp-certs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/openpgp-certs'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests'
+Making all in guile
+make[2]: Entering directory '/tmp/gnutls-3.1.23/guile'
+Making all in modules
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile/modules'
+cat "gnutls.in" | /bin/sed -e's|[@]guileextensiondir[@]|/usr/lib/guile/2.0|g' \
+  > "gnutls.scm.tmp"
+mv "gnutls.scm.tmp" "gnutls.scm"
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile/modules'
+Making all in src
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile/src'
+GUILE_AUTO_COMPILE=0 /usr/bin/guile -L ../../guile/modules make-enum-map.scm > enum-map.i.c
+GUILE_AUTO_COMPILE=0 /usr/bin/guile -L ../../guile/modules make-smob-types.scm > smob-types.i.c
+GUILE_AUTO_COMPILE=0 /usr/bin/guile -L ../../guile/modules make-enum-header.scm > enums.h
+GUILE_AUTO_COMPILE=0 /usr/bin/guile -L ../../guile/modules make-smob-header.scm > smobs.h
+GUILE_AUTO_COMPILE=0 /usr/bin/guile -L ../../guile/modules make-session-priorities.scm > priorities.i.c
+/usr/bin/guile-snarf -o core.x core.c -DHAVE_CONFIG_H  -I../../lib/includes -I../../lib/includes -I../../extra/includes -I../.. -I.  -g -O2 -Wno-strict-prototypes  -I../../gl -I../../gl -pthread -I/usr/include/guile/2.0
+/usr/bin/guile-snarf -o errors.x errors.c -DHAVE_CONFIG_H  -I../../lib/includes -I../../lib/includes -I../../extra/includes -I../.. -I.  -g -O2 -Wno-strict-prototypes  -I../../gl -I../../gl -pthread -I/usr/include/guile/2.0
+make  all-am
+make[4]: Entering directory '/tmp/gnutls-3.1.23/guile/src'
+  CC       guile_gnutls_v_2_la-core.lo
+  CC       guile_gnutls_v_2_la-errors.lo
+  CC       guile_gnutls_v_2_la-utils.lo
+In file included from core.c:519:0:
+priorities.i.c: In function 'scm_gnutls_set_session_cipher_priority_x':
+priorities.i.c:11:3: warning: implicit declaration of function 'scm_c_issue_deprecation_warning' [-Wimplicit-function-declaration]
+   scm_c_issue_deprecation_warning ("`set-session-cipher-priority!' is deprecated, use `set-session-priorities!' instead");
+   ^
+  CCLD     guile-gnutls-v-2.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/guile/src'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile/src'
+Making all in tests
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile/tests'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/guile'
+make[2]: Entering directory '/tmp/gnutls-3.1.23'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23'
+Making install in gl
+make[1]: Entering directory '/tmp/gnutls-3.1.23/gl'
+make  install-recursive
+make[2]: Entering directory '/tmp/gnutls-3.1.23/gl'
+Making install in tests
+make[3]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+make  install-recursive
+make[4]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+Making install in .
+make[5]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+make[6]: Entering directory '/tmp/gnutls-3.1.23/gl/tests'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/gl/tests'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/gl'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/gl'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/gl'
+Making install in lib
+make[1]: Entering directory '/tmp/gnutls-3.1.23/lib'
+Making install in includes
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/includes'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/includes'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/gnutls'
+ /usr/bin/install -c -m 644  gnutls/x509.h gnutls/pkcs12.h gnutls/compat.h gnutls/openpgp.h gnutls/crypto.h gnutls/pkcs11.h gnutls/abstract.h gnutls/dtls.h gnutls/ocsp.h gnutls/tpm.h gnutls/xssl.h gnutls/gnutlsxx.h '/usr/include/gnutls'
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/gnutls'
+ /usr/bin/install -c -m 644  gnutls/gnutls.h '/usr/include/gnutls'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/includes'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/includes'
+Making install in x509
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/x509'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/x509'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/x509'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/x509'
+Making install in accelerated
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated'
+Making install in x86
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated/x86'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated/x86'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated/x86'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated/x86'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/lib/accelerated'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/accelerated'
+Making install in auth
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/auth'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/auth'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/auth'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/auth'
+Making install in ext
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/ext'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/ext'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/ext'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/ext'
+Making install in algorithms
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/algorithms'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/algorithms'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/algorithms'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/algorithms'
+Making install in extras
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/extras'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/extras'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/extras'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/extras'
+Making install in opencdk
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/opencdk'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/opencdk'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/opencdk'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/opencdk'
+Making install in openpgp
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/openpgp'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/openpgp'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/openpgp'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/openpgp'
+Making install in nettle
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib/nettle'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib/nettle'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib/nettle'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib/nettle'
+make[2]: Entering directory '/tmp/gnutls-3.1.23/lib'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/lib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libgnutls.la libgnutlsxx.la libgnutls-xssl.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgnutls.so.28.21.3 /usr/lib/libgnutls.so.28.21.3
+libtool: install: (cd /usr/lib && { ln -s -f libgnutls.so.28.21.3 libgnutls.so.28 || { rm -f libgnutls.so.28 && ln -s libgnutls.so.28.21.3 libgnutls.so.28; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgnutls.so.28.21.3 libgnutls.so || { rm -f libgnutls.so && ln -s libgnutls.so.28.21.3 libgnutls.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgnutls.lai /usr/lib/libgnutls.la
+libtool: install: warning: relinking `libgnutlsxx.la'
+libtool: install: (cd /tmp/gnutls-3.1.23/lib; /bin/bash /tmp/gnutls-3.1.23/libtool  --silent --tag CXX --mode=relink g++ -I./includes -I./includes -g -O2 -no-undefined -version-info 29:0:1 -o libgnutlsxx.la -rpath /usr/lib libgnutlsxx_la-gnutlsxx.lo libgnutls.la )
+libtool: install: /usr/bin/install -c .libs/libgnutlsxx.so.28.1.0T /usr/lib/libgnutlsxx.so.28.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libgnutlsxx.so.28.1.0 libgnutlsxx.so.28 || { rm -f libgnutlsxx.so.28 && ln -s libgnutlsxx.so.28.1.0 libgnutlsxx.so.28; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgnutlsxx.so.28.1.0 libgnutlsxx.so || { rm -f libgnutlsxx.so && ln -s libgnutlsxx.so.28.1.0 libgnutlsxx.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgnutlsxx.lai /usr/lib/libgnutlsxx.la
+libtool: install: warning: relinking `libgnutls-xssl.la'
+libtool: install: (cd /tmp/gnutls-3.1.23/lib; /bin/bash /tmp/gnutls-3.1.23/libtool  --silent --tag CC --mode=relink gcc -g -O2 -no-undefined -version-info 0:0:0 -o libgnutls-xssl.la -rpath /usr/lib xssl.lo xssl_getline.lo ../gl/libgnu.la libgnutls.la )
+libtool: install: /usr/bin/install -c .libs/libgnutls-xssl.so.0.0.0T /usr/lib/libgnutls-xssl.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgnutls-xssl.so.0.0.0 libgnutls-xssl.so.0 || { rm -f libgnutls-xssl.so.0 && ln -s libgnutls-xssl.so.0.0.0 libgnutls-xssl.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgnutls-xssl.so.0.0.0 libgnutls-xssl.so || { rm -f libgnutls-xssl.so && ln -s libgnutls-xssl.so.0.0.0 libgnutls-xssl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgnutls-xssl.lai /usr/lib/libgnutls-xssl.la
+libtool: install: /usr/bin/install -c .libs/libgnutls.a /usr/lib/libgnutls.a
+libtool: install: chmod 644 /usr/lib/libgnutls.a
+libtool: install: ranlib /usr/lib/libgnutls.a
+libtool: install: /usr/bin/install -c .libs/libgnutlsxx.a /usr/lib/libgnutlsxx.a
+libtool: install: chmod 644 /usr/lib/libgnutlsxx.a
+libtool: install: ranlib /usr/lib/libgnutlsxx.a
+libtool: install: /usr/bin/install -c .libs/libgnutls-xssl.a /usr/lib/libgnutls-xssl.a
+libtool: install: chmod 644 /usr/lib/libgnutls-xssl.a
+libtool: install: ranlib /usr/lib/libgnutls-xssl.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gnutls.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/lib'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/lib'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/lib'
+Making install in extra
+make[1]: Entering directory '/tmp/gnutls-3.1.23/extra'
+Making install in includes
+make[2]: Entering directory '/tmp/gnutls-3.1.23/extra/includes'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/extra/includes'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/gnutls'
+ /usr/bin/install -c -m 644  gnutls/openssl.h '/usr/include/gnutls'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/extra/includes'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/extra/includes'
+make[2]: Entering directory '/tmp/gnutls-3.1.23/extra'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/extra'
+ /bin/mkdir -p '/usr/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libgnutls-openssl.la '/usr/lib'
+libtool: install: warning: relinking `libgnutls-openssl.la'
+libtool: install: (cd /tmp/gnutls-3.1.23/extra; /bin/bash /tmp/gnutls-3.1.23/libtool  --silent --tag CC --mode=relink gcc -g -O2 -no-undefined -version-info 27:2:0 -o libgnutls-openssl.la -rpath /usr/lib gnutls_openssl.lo openssl_compat.lo ../gl/libgnu.la ../lib/libgnutls.la )
+libtool: install: /usr/bin/install -c .libs/libgnutls-openssl.so.27.0.2T /usr/lib/libgnutls-openssl.so.27.0.2
+libtool: install: (cd /usr/lib && { ln -s -f libgnutls-openssl.so.27.0.2 libgnutls-openssl.so.27 || { rm -f libgnutls-openssl.so.27 && ln -s libgnutls-openssl.so.27.0.2 libgnutls-openssl.so.27; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgnutls-openssl.so.27.0.2 libgnutls-openssl.so || { rm -f libgnutls-openssl.so && ln -s libgnutls-openssl.so.27.0.2 libgnutls-openssl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgnutls-openssl.lai /usr/lib/libgnutls-openssl.la
+libtool: install: /usr/bin/install -c .libs/libgnutls-openssl.a /usr/lib/libgnutls-openssl.a
+libtool: install: chmod 644 /usr/lib/libgnutls-openssl.a
+libtool: install: ranlib /usr/lib/libgnutls-openssl.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/extra'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/extra'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/extra'
+Making install in po
+make[1]: Entering directory '/tmp/gnutls-3.1.23/po'
+installing en@boldquot.gmo as /usr/share/locale/en@boldquot/LC_MESSAGES/gnutls.mo
+installing en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/gnutls.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/gnutls.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gnutls.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gnutls.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gnutls.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gnutls.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/gnutls.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/gnutls.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gnutls.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gnutls.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gnutls.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gnutls.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gnutls.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo
+if test "gnutls" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/po'
+Making install in src
+make[1]: Entering directory '/tmp/gnutls-3.1.23/src'
+make  install-recursive
+make[2]: Entering directory '/tmp/gnutls-3.1.23/src'
+Making install in crywrap
+make[3]: Entering directory '/tmp/gnutls-3.1.23/src/crywrap'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/src/crywrap'
+ /bin/mkdir -p '/usr/bin'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c crywrap '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/crywrap /usr/bin/crywrap
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/src/crywrap'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/src/crywrap'
+Making install in libopts
+make[3]: Entering directory '/tmp/gnutls-3.1.23/src/libopts'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/src/libopts'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/src/libopts'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/src/libopts'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/src'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/src'
+ /bin/mkdir -p '/usr/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c psktool gnutls-cli-debug certtool srptool ocsptool gnutls-serv gnutls-cli danetool '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/psktool /usr/bin/psktool
+libtool: install: /usr/bin/install -c .libs/gnutls-cli-debug /usr/bin/gnutls-cli-debug
+libtool: install: /usr/bin/install -c .libs/certtool /usr/bin/certtool
+libtool: install: /usr/bin/install -c .libs/srptool /usr/bin/srptool
+libtool: install: /usr/bin/install -c .libs/ocsptool /usr/bin/ocsptool
+libtool: install: /usr/bin/install -c .libs/gnutls-serv /usr/bin/gnutls-serv
+libtool: install: /usr/bin/install -c .libs/gnutls-cli /usr/bin/gnutls-cli
+libtool: install: /usr/bin/install -c .libs/danetool /usr/bin/danetool
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/src'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/src'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/src'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/src'
+Making install in doc
+make[1]: Entering directory '/tmp/gnutls-3.1.23/doc'
+make  install-recursive
+make[2]: Entering directory '/tmp/gnutls-3.1.23/doc'
+Making install in examples
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc/examples'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/examples'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/examples'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc/examples'
+Making install in cyclo
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc/cyclo'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/cyclo'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/cyclo'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc/cyclo'
+Making install in scripts
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc/scripts'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/scripts'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/scripts'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc/scripts'
+Making install in manpages
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc/manpages'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/manpages'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gnutls-cli.1 gnutls-cli-debug.1 gnutls-serv.1 certtool.1 psktool.1 p11tool.1 ocsptool.1 tpmtool.1 srptool.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_alert_get.3 gnutls_alert_get_name.3 gnutls_alert_get_strname.3 gnutls_alert_send.3 gnutls_alert_send_appropriate.3 gnutls_anon_allocate_client_credentials.3 gnutls_anon_allocate_server_credentials.3 gnutls_anon_free_client_credentials.3 gnutls_anon_free_server_credentials.3 gnutls_anon_set_params_function.3 gnutls_anon_set_server_dh_params.3 gnutls_anon_set_server_params_function.3 gnutls_auth_client_get_type.3 gnutls_auth_get_type.3 gnutls_auth_server_get_type.3 gnutls_bye.3 gnutls_certificate_activation_time_peers.3 gnutls_certificate_allocate_credentials.3 gnutls_certificate_client_get_request_status.3 gnutls_certificate_expiration_time_peers.3 gnutls_certificate_free_ca_names.3 gnutls_certificate_free_cas.3 gnutls_certificate_free_credentials.3 gnutls_certificate_free_crls.3 gnutls_certificate_free_keys.3 gnutls_certificate_get_issuer.3 gnutls_certificate_get_ours.3 gnutls_certificate_get_peers.3 gnutls_certificate_get_peers_subkey_id.3 gnutls_certificate_send_x509_rdn_sequence.3 gnutls_certificate_server_set_request.3 gnutls_certificate_set_dh_params.3 gnutls_certificate_set_key.3 gnutls_certificate_set_ocsp_status_request_file.3 gnutls_certificate_set_ocsp_status_request_function.3 gnutls_certificate_set_openpgp_key.3 gnutls_certificate_set_openpgp_key_file.3 gnutls_certificate_set_openpgp_key_file2.3 gnutls_certificate_set_openpgp_key_mem.3 gnutls_certificate_set_openpgp_key_mem2.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_certificate_set_openpgp_keyring_file.3 gnutls_certificate_set_openpgp_keyring_mem.3 gnutls_certificate_set_params_function.3 gnutls_certificate_set_pin_function.3 gnutls_certificate_set_retrieve_function.3 gnutls_certificate_set_retrieve_function2.3 gnutls_certificate_set_rsa_export_params.3 gnutls_certificate_set_verify_flags.3 gnutls_certificate_set_verify_function.3 gnutls_certificate_set_verify_limits.3 gnutls_certificate_set_x509_crl.3 gnutls_certificate_set_x509_crl_file.3 gnutls_certificate_set_x509_crl_mem.3 gnutls_certificate_set_x509_key.3 gnutls_certificate_set_x509_key_file.3 gnutls_certificate_set_x509_key_file2.3 gnutls_certificate_set_x509_key_mem.3 gnutls_certificate_set_x509_key_mem2.3 gnutls_certificate_set_x509_simple_pkcs12_file.3 gnutls_certificate_set_x509_simple_pkcs12_mem.3 gnutls_certificate_set_x509_system_trust.3 gnutls_certificate_set_x509_trust.3 gnutls_certificate_set_x509_trust_file.3 gnutls_certificate_set_x509_trust_mem.3 gnutls_certificate_type_get.3 gnutls_certificate_type_get_id.3 gnutls_certificate_type_get_name.3 gnutls_certificate_type_list.3 gnutls_certificate_type_set_priority.3 gnutls_certificate_verification_status_print.3 gnutls_certificate_verify_peers2.3 gnutls_certificate_verify_peers3.3 gnutls_check_version.3 gnutls_cipher_add_auth.3 gnutls_cipher_decrypt.3 gnutls_cipher_decrypt2.3 gnutls_cipher_deinit.3 gnutls_cipher_encrypt.3 gnutls_cipher_encrypt2.3 gnutls_cipher_get.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_cipher_get_block_size.3 gnutls_cipher_get_id.3 gnutls_cipher_get_key_size.3 gnutls_cipher_get_name.3 gnutls_cipher_init.3 gnutls_cipher_list.3 gnutls_cipher_set_iv.3 gnutls_cipher_set_priority.3 gnutls_cipher_suite_get_name.3 gnutls_cipher_suite_info.3 gnutls_cipher_tag.3 gnutls_compression_get.3 gnutls_compression_get_id.3 gnutls_compression_get_name.3 gnutls_compression_list.3 gnutls_compression_set_priority.3 gnutls_credentials_clear.3 gnutls_credentials_set.3 gnutls_db_check_entry.3 gnutls_db_check_entry_time.3 gnutls_db_get_ptr.3 gnutls_db_remove_session.3 gnutls_db_set_cache_expiration.3 gnutls_db_set_ptr.3 gnutls_db_set_remove_function.3 gnutls_db_set_retrieve_function.3 gnutls_db_set_store_function.3 gnutls_deinit.3 gnutls_dh_get_group.3 gnutls_dh_get_peers_public_bits.3 gnutls_dh_get_prime_bits.3 gnutls_dh_get_pubkey.3 gnutls_dh_get_secret_bits.3 gnutls_dh_params_cpy.3 gnutls_dh_params_deinit.3 gnutls_dh_params_export2_pkcs3.3 gnutls_dh_params_export_pkcs3.3 gnutls_dh_params_export_raw.3 gnutls_dh_params_generate2.3 gnutls_dh_params_import_pkcs3.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_dh_params_import_raw.3 gnutls_dh_params_init.3 gnutls_dh_set_prime_bits.3 gnutls_dtls_cookie_send.3 gnutls_dtls_cookie_verify.3 gnutls_dtls_get_data_mtu.3 gnutls_dtls_get_mtu.3 gnutls_dtls_get_timeout.3 gnutls_dtls_prestate_set.3 gnutls_dtls_set_data_mtu.3 gnutls_dtls_set_mtu.3 gnutls_dtls_set_timeouts.3 gnutls_ecc_curve_get.3 gnutls_ecc_curve_get_name.3 gnutls_ecc_curve_get_size.3 gnutls_ecc_curve_list.3 gnutls_error_is_fatal.3 gnutls_error_to_alert.3 gnutls_fingerprint.3 gnutls_global_deinit.3 gnutls_global_init.3 gnutls_global_set_audit_log_function.3 gnutls_global_set_log_function.3 gnutls_global_set_log_level.3 gnutls_global_set_mem_functions.3 gnutls_global_set_mutex.3 gnutls_global_set_time_function.3 gnutls_handshake.3 gnutls_handshake_get_last_in.3 gnutls_handshake_get_last_out.3 gnutls_handshake_set_max_packet_length.3 gnutls_handshake_set_post_client_hello_function.3 gnutls_handshake_set_private_extensions.3 gnutls_handshake_set_random.3 gnutls_handshake_set_timeout.3 gnutls_hash.3 gnutls_hash_deinit.3 gnutls_hash_fast.3 gnutls_hash_get_len.3 gnutls_hash_init.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_hash_output.3 gnutls_heartbeat_allowed.3 gnutls_heartbeat_enable.3 gnutls_heartbeat_get_timeout.3 gnutls_heartbeat_ping.3 gnutls_heartbeat_pong.3 gnutls_heartbeat_set_timeouts.3 gnutls_hex2bin.3 gnutls_hex_decode.3 gnutls_hex_encode.3 gnutls_hmac.3 gnutls_hmac_deinit.3 gnutls_hmac_fast.3 gnutls_hmac_get_len.3 gnutls_hmac_init.3 gnutls_hmac_output.3 gnutls_init.3 gnutls_key_generate.3 gnutls_kx_get.3 gnutls_kx_get_id.3 gnutls_kx_get_name.3 gnutls_kx_list.3 gnutls_kx_set_priority.3 gnutls_load_file.3 gnutls_mac_get.3 gnutls_mac_get_id.3 gnutls_mac_get_key_size.3 gnutls_mac_get_name.3 gnutls_mac_list.3 gnutls_mac_set_priority.3 gnutls_ocsp_req_add_cert.3 gnutls_ocsp_req_add_cert_id.3 gnutls_ocsp_req_deinit.3 gnutls_ocsp_req_export.3 gnutls_ocsp_req_get_cert_id.3 gnutls_ocsp_req_get_extension.3 gnutls_ocsp_req_get_nonce.3 gnutls_ocsp_req_get_version.3 gnutls_ocsp_req_import.3 gnutls_ocsp_req_init.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_ocsp_req_print.3 gnutls_ocsp_req_randomize_nonce.3 gnutls_ocsp_req_set_extension.3 gnutls_ocsp_req_set_nonce.3 gnutls_ocsp_resp_check_crt.3 gnutls_ocsp_resp_deinit.3 gnutls_ocsp_resp_export.3 gnutls_ocsp_resp_get_certs.3 gnutls_ocsp_resp_get_extension.3 gnutls_ocsp_resp_get_nonce.3 gnutls_ocsp_resp_get_produced.3 gnutls_ocsp_resp_get_responder.3 gnutls_ocsp_resp_get_response.3 gnutls_ocsp_resp_get_signature.3 gnutls_ocsp_resp_get_signature_algorithm.3 gnutls_ocsp_resp_get_single.3 gnutls_ocsp_resp_get_status.3 gnutls_ocsp_resp_get_version.3 gnutls_ocsp_resp_import.3 gnutls_ocsp_resp_init.3 gnutls_ocsp_resp_print.3 gnutls_ocsp_resp_verify.3 gnutls_ocsp_resp_verify_direct.3 gnutls_ocsp_status_request_enable_client.3 gnutls_ocsp_status_request_get.3 gnutls_ocsp_status_request_is_checked.3 gnutls_openpgp_crt_check_hostname.3 gnutls_openpgp_crt_deinit.3 gnutls_openpgp_crt_export.3 gnutls_openpgp_crt_export2.3 gnutls_openpgp_crt_get_auth_subkey.3 gnutls_openpgp_crt_get_creation_time.3 gnutls_openpgp_crt_get_expiration_time.3 gnutls_openpgp_crt_get_fingerprint.3 gnutls_openpgp_crt_get_key_id.3 gnutls_openpgp_crt_get_key_usage.3 gnutls_openpgp_crt_get_name.3 gnutls_openpgp_crt_get_pk_algorithm.3 gnutls_openpgp_crt_get_pk_dsa_raw.3 gnutls_openpgp_crt_get_pk_rsa_raw.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_openpgp_crt_get_preferred_key_id.3 gnutls_openpgp_crt_get_revoked_status.3 gnutls_openpgp_crt_get_subkey_count.3 gnutls_openpgp_crt_get_subkey_creation_time.3 gnutls_openpgp_crt_get_subkey_expiration_time.3 gnutls_openpgp_crt_get_subkey_fingerprint.3 gnutls_openpgp_crt_get_subkey_id.3 gnutls_openpgp_crt_get_subkey_idx.3 gnutls_openpgp_crt_get_subkey_pk_algorithm.3 gnutls_openpgp_crt_get_subkey_pk_dsa_raw.3 gnutls_openpgp_crt_get_subkey_pk_rsa_raw.3 gnutls_openpgp_crt_get_subkey_revoked_status.3 gnutls_openpgp_crt_get_subkey_usage.3 gnutls_openpgp_crt_get_version.3 gnutls_openpgp_crt_import.3 gnutls_openpgp_crt_init.3 gnutls_openpgp_crt_print.3 gnutls_openpgp_crt_set_preferred_key_id.3 gnutls_openpgp_crt_verify_ring.3 gnutls_openpgp_crt_verify_self.3 gnutls_openpgp_keyring_check_id.3 gnutls_openpgp_keyring_deinit.3 gnutls_openpgp_keyring_get_crt.3 gnutls_openpgp_keyring_get_crt_count.3 gnutls_openpgp_keyring_import.3 gnutls_openpgp_keyring_init.3 gnutls_openpgp_privkey_deinit.3 gnutls_openpgp_privkey_export.3 gnutls_openpgp_privkey_export2.3 gnutls_openpgp_privkey_export_dsa_raw.3 gnutls_openpgp_privkey_export_rsa_raw.3 gnutls_openpgp_privkey_export_subkey_dsa_raw.3 gnutls_openpgp_privkey_export_subkey_rsa_raw.3 gnutls_openpgp_privkey_get_fingerprint.3 gnutls_openpgp_privkey_get_key_id.3 gnutls_openpgp_privkey_get_pk_algorithm.3 gnutls_openpgp_privkey_get_preferred_key_id.3 gnutls_openpgp_privkey_get_revoked_status.3 gnutls_openpgp_privkey_get_subkey_count.3 gnutls_openpgp_privkey_get_subkey_creation_time.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_openpgp_privkey_get_subkey_fingerprint.3 gnutls_openpgp_privkey_get_subkey_id.3 gnutls_openpgp_privkey_get_subkey_idx.3 gnutls_openpgp_privkey_get_subkey_pk_algorithm.3 gnutls_openpgp_privkey_get_subkey_revoked_status.3 gnutls_openpgp_privkey_import.3 gnutls_openpgp_privkey_init.3 gnutls_openpgp_privkey_sec_param.3 gnutls_openpgp_privkey_set_preferred_key_id.3 gnutls_openpgp_privkey_sign_hash.3 gnutls_openpgp_send_cert.3 gnutls_openpgp_set_recv_key_function.3 gnutls_pcert_deinit.3 gnutls_pcert_import_openpgp.3 gnutls_pcert_import_openpgp_raw.3 gnutls_pcert_import_x509.3 gnutls_pcert_import_x509_raw.3 gnutls_pcert_list_import_x509_raw.3 gnutls_pem_base64_decode.3 gnutls_pem_base64_decode_alloc.3 gnutls_pem_base64_encode.3 gnutls_pem_base64_encode_alloc.3 gnutls_perror.3 gnutls_pk_algorithm_get_name.3 gnutls_pk_bits_to_sec_param.3 gnutls_pkcs11_add_provider.3 gnutls_pkcs11_copy_secret_key.3 gnutls_pkcs11_copy_x509_crt.3 gnutls_pkcs11_copy_x509_privkey.3 gnutls_pkcs11_deinit.3 gnutls_pkcs11_delete_url.3 gnutls_pkcs11_get_pin_function.3 gnutls_pkcs11_init.3 gnutls_pkcs11_obj_deinit.3 gnutls_pkcs11_obj_export.3 gnutls_pkcs11_obj_export2.3 gnutls_pkcs11_obj_export_url.3 gnutls_pkcs11_obj_get_info.3 gnutls_pkcs11_obj_get_type.3 gnutls_pkcs11_obj_import_url.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_pkcs11_obj_init.3 gnutls_pkcs11_obj_list_import_url.3 gnutls_pkcs11_obj_list_import_url2.3 gnutls_pkcs11_obj_set_pin_function.3 gnutls_pkcs11_privkey_deinit.3 gnutls_pkcs11_privkey_export_url.3 gnutls_pkcs11_privkey_generate.3 gnutls_pkcs11_privkey_generate2.3 gnutls_pkcs11_privkey_get_info.3 gnutls_pkcs11_privkey_get_pk_algorithm.3 gnutls_pkcs11_privkey_import_url.3 gnutls_pkcs11_privkey_init.3 gnutls_pkcs11_privkey_set_pin_function.3 gnutls_pkcs11_privkey_status.3 gnutls_pkcs11_reinit.3 gnutls_pkcs11_set_pin_function.3 gnutls_pkcs11_set_token_function.3 gnutls_pkcs11_token_get_flags.3 gnutls_pkcs11_token_get_info.3 gnutls_pkcs11_token_get_mechanism.3 gnutls_pkcs11_token_get_url.3 gnutls_pkcs11_token_init.3 gnutls_pkcs11_token_set_pin.3 gnutls_pkcs11_type_get_name.3 gnutls_pkcs12_bag_decrypt.3 gnutls_pkcs12_bag_deinit.3 gnutls_pkcs12_bag_encrypt.3 gnutls_pkcs12_bag_get_count.3 gnutls_pkcs12_bag_get_data.3 gnutls_pkcs12_bag_get_friendly_name.3 gnutls_pkcs12_bag_get_key_id.3 gnutls_pkcs12_bag_get_type.3 gnutls_pkcs12_bag_init.3 gnutls_pkcs12_bag_set_crl.3 gnutls_pkcs12_bag_set_crt.3 gnutls_pkcs12_bag_set_data.3 gnutls_pkcs12_bag_set_friendly_name.3 gnutls_pkcs12_bag_set_key_id.3 gnutls_pkcs12_deinit.3 gnutls_pkcs12_export.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_pkcs12_export2.3 gnutls_pkcs12_generate_mac.3 gnutls_pkcs12_get_bag.3 gnutls_pkcs12_import.3 gnutls_pkcs12_init.3 gnutls_pkcs12_set_bag.3 gnutls_pkcs12_simple_parse.3 gnutls_pkcs12_verify_mac.3 gnutls_pkcs7_deinit.3 gnutls_pkcs7_delete_crl.3 gnutls_pkcs7_delete_crt.3 gnutls_pkcs7_export.3 gnutls_pkcs7_export2.3 gnutls_pkcs7_get_crl_count.3 gnutls_pkcs7_get_crl_raw.3 gnutls_pkcs7_get_crt_count.3 gnutls_pkcs7_get_crt_raw.3 gnutls_pkcs7_import.3 gnutls_pkcs7_init.3 gnutls_pkcs7_set_crl.3 gnutls_pkcs7_set_crl_raw.3 gnutls_pkcs7_set_crt.3 gnutls_pkcs7_set_crt_raw.3 gnutls_pk_get_id.3 gnutls_pk_get_name.3 gnutls_pk_list.3 gnutls_pk_to_sign.3 gnutls_prf.3 gnutls_prf_raw.3 gnutls_priority_certificate_type_list.3 gnutls_priority_compression_list.3 gnutls_priority_deinit.3 gnutls_priority_ecc_curve_list.3 gnutls_priority_get_cipher_suite_index.3 gnutls_priority_init.3 gnutls_priority_protocol_list.3 gnutls_priority_set.3 gnutls_priority_set_direct.3 gnutls_priority_sign_list.3 gnutls_privkey_decrypt_data.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_privkey_deinit.3 gnutls_privkey_get_pk_algorithm.3 gnutls_privkey_get_type.3 gnutls_privkey_import_ext.3 gnutls_privkey_import_ext2.3 gnutls_privkey_import_openpgp.3 gnutls_privkey_import_openpgp_raw.3 gnutls_privkey_import_pkcs11.3 gnutls_privkey_import_pkcs11_url.3 gnutls_privkey_import_tpm_raw.3 gnutls_privkey_import_tpm_url.3 gnutls_privkey_import_url.3 gnutls_privkey_import_x509.3 gnutls_privkey_import_x509_raw.3 gnutls_privkey_init.3 gnutls_privkey_set_pin_function.3 gnutls_privkey_sign_data.3 gnutls_privkey_sign_hash.3 gnutls_privkey_sign_raw_data.3 gnutls_privkey_status.3 gnutls_protocol_get_id.3 gnutls_protocol_get_name.3 gnutls_protocol_get_version.3 gnutls_protocol_list.3 gnutls_protocol_set_priority.3 gnutls_psk_allocate_client_credentials.3 gnutls_psk_allocate_server_credentials.3 gnutls_psk_client_get_hint.3 gnutls_psk_free_client_credentials.3 gnutls_psk_free_server_credentials.3 gnutls_psk_server_get_username.3 gnutls_psk_set_client_credentials.3 gnutls_psk_set_client_credentials_function.3 gnutls_psk_set_params_function.3 gnutls_psk_set_server_credentials_file.3 gnutls_psk_set_server_credentials_function.3 gnutls_psk_set_server_credentials_hint.3 gnutls_psk_set_server_dh_params.3 gnutls_psk_set_server_params_function.3 gnutls_pubkey_deinit.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_pubkey_encrypt_data.3 gnutls_pubkey_export.3 gnutls_pubkey_export2.3 gnutls_pubkey_get_key_id.3 gnutls_pubkey_get_key_usage.3 gnutls_pubkey_get_openpgp_key_id.3 gnutls_pubkey_get_pk_algorithm.3 gnutls_pubkey_get_pk_dsa_raw.3 gnutls_pubkey_get_pk_ecc_raw.3 gnutls_pubkey_get_pk_ecc_x962.3 gnutls_pubkey_get_pk_rsa_raw.3 gnutls_pubkey_get_preferred_hash_algorithm.3 gnutls_pubkey_get_verify_algorithm.3 gnutls_pubkey_import.3 gnutls_pubkey_import_dsa_raw.3 gnutls_pubkey_import_ecc_raw.3 gnutls_pubkey_import_ecc_x962.3 gnutls_pubkey_import_openpgp.3 gnutls_pubkey_import_openpgp_raw.3 gnutls_pubkey_import_pkcs11.3 gnutls_pubkey_import_pkcs11_url.3 gnutls_pubkey_import_privkey.3 gnutls_pubkey_import_rsa_raw.3 gnutls_pubkey_import_tpm_raw.3 gnutls_pubkey_import_tpm_url.3 gnutls_pubkey_import_url.3 gnutls_pubkey_import_x509.3 gnutls_pubkey_import_x509_crq.3 gnutls_pubkey_import_x509_raw.3 gnutls_pubkey_init.3 gnutls_pubkey_print.3 gnutls_pubkey_set_key_usage.3 gnutls_pubkey_set_pin_function.3 gnutls_pubkey_verify_data.3 gnutls_pubkey_verify_data2.3 gnutls_pubkey_verify_hash.3 gnutls_pubkey_verify_hash2.3 gnutls_random_art.3 gnutls_range_split.3 gnutls_record_can_use_length_hiding.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_record_check_pending.3 gnutls_record_cork.3 gnutls_record_disable_padding.3 gnutls_record_get_direction.3 gnutls_record_get_discarded.3 gnutls_record_get_max_size.3 gnutls_record_recv.3 gnutls_record_recv_seq.3 gnutls_record_send.3 gnutls_record_send_range.3 gnutls_record_set_max_empty_records.3 gnutls_record_set_max_size.3 gnutls_record_set_timeout.3 gnutls_record_uncork.3 gnutls_rehandshake.3 gnutls_rnd.3 gnutls_rnd_refresh.3 gnutls_rsa_export_get_modulus_bits.3 gnutls_rsa_export_get_pubkey.3 gnutls_rsa_params_cpy.3 gnutls_rsa_params_deinit.3 gnutls_rsa_params_export_pkcs1.3 gnutls_rsa_params_export_raw.3 gnutls_rsa_params_generate2.3 gnutls_rsa_params_import_pkcs1.3 gnutls_rsa_params_import_raw.3 gnutls_rsa_params_init.3 gnutls_safe_renegotiation_status.3 gnutls_sec_param_get_name.3 gnutls_sec_param_to_pk_bits.3 gnutls_server_name_get.3 gnutls_server_name_set.3 gnutls_session_channel_binding.3 gnutls_session_enable_compatibility_mode.3 gnutls_session_force_valid.3 gnutls_session_get_data.3 gnutls_session_get_data2.3 gnutls_session_get_desc.3 gnutls_session_get_id.3 gnutls_session_get_id2.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_session_get_ptr.3 gnutls_session_get_random.3 gnutls_session_is_resumed.3 gnutls_session_resumption_requested.3 gnutls_session_set_data.3 gnutls_session_set_premaster.3 gnutls_session_set_ptr.3 gnutls_session_ticket_enable_client.3 gnutls_session_ticket_enable_server.3 gnutls_session_ticket_key_generate.3 gnutls_set_default_export_priority.3 gnutls_set_default_priority.3 gnutls_sign_algorithm_get.3 gnutls_sign_algorithm_get_client.3 gnutls_sign_algorithm_get_requested.3 gnutls_sign_callback_get.3 gnutls_sign_callback_set.3 gnutls_sign_get_hash_algorithm.3 gnutls_sign_get_id.3 gnutls_sign_get_name.3 gnutls_sign_get_pk_algorithm.3 gnutls_sign_is_secure.3 gnutls_sign_list.3 gnutls_srp_allocate_client_credentials.3 gnutls_srp_allocate_server_credentials.3 gnutls_srp_base64_decode.3 gnutls_srp_base64_decode_alloc.3 gnutls_srp_base64_encode.3 gnutls_srp_base64_encode_alloc.3 gnutls_srp_free_client_credentials.3 gnutls_srp_free_server_credentials.3 gnutls_srp_server_get_username.3 gnutls_srp_set_client_credentials.3 gnutls_srp_set_client_credentials_function.3 gnutls_srp_set_prime_bits.3 gnutls_srp_set_server_credentials_file.3 gnutls_srp_set_server_credentials_function.3 gnutls_srp_verifier.3 gnutls_srtp_get_keys.3 gnutls_srtp_get_mki.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_srtp_get_profile_id.3 gnutls_srtp_get_profile_name.3 gnutls_srtp_get_selected_profile.3 gnutls_srtp_set_mki.3 gnutls_srtp_set_profile.3 gnutls_srtp_set_profile_direct.3 gnutls_store_commitment.3 gnutls_store_pubkey.3 gnutls_strerror.3 gnutls_strerror_name.3 gnutls_supplemental_get_name.3 gnutls_tdb_deinit.3 gnutls_tdb_init.3 gnutls_tdb_set_store_commitment_func.3 gnutls_tdb_set_store_func.3 gnutls_tdb_set_verify_func.3 gnutls_tpm_get_registered.3 gnutls_tpm_key_list_deinit.3 gnutls_tpm_key_list_get_url.3 gnutls_tpm_privkey_delete.3 gnutls_tpm_privkey_generate.3 gnutls_transport_get_int.3 gnutls_transport_get_int2.3 gnutls_transport_get_ptr.3 gnutls_transport_get_ptr2.3 gnutls_transport_set_errno.3 gnutls_transport_set_errno_function.3 gnutls_transport_set_int.3 gnutls_transport_set_int2.3 gnutls_transport_set_ptr.3 gnutls_transport_set_ptr2.3 gnutls_transport_set_pull_function.3 gnutls_transport_set_pull_timeout_function.3 gnutls_transport_set_push_function.3 gnutls_transport_set_vec_push_function.3 gnutls_url_is_supported.3 gnutls_verify_stored_pubkey.3 gnutls_x509_crl_check_issuer.3 gnutls_x509_crl_deinit.3 gnutls_x509_crl_export.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_x509_crl_export2.3 gnutls_x509_crl_get_authority_key_gn_serial.3 gnutls_x509_crl_get_authority_key_id.3 gnutls_x509_crl_get_crt_count.3 gnutls_x509_crl_get_crt_serial.3 gnutls_x509_crl_get_dn_oid.3 gnutls_x509_crl_get_extension_data.3 gnutls_x509_crl_get_extension_info.3 gnutls_x509_crl_get_extension_oid.3 gnutls_x509_crl_get_issuer_dn.3 gnutls_x509_crl_get_issuer_dn2.3 gnutls_x509_crl_get_issuer_dn_by_oid.3 gnutls_x509_crl_get_next_update.3 gnutls_x509_crl_get_number.3 gnutls_x509_crl_get_raw_issuer_dn.3 gnutls_x509_crl_get_signature.3 gnutls_x509_crl_get_signature_algorithm.3 gnutls_x509_crl_get_this_update.3 gnutls_x509_crl_get_version.3 gnutls_x509_crl_import.3 gnutls_x509_crl_init.3 gnutls_x509_crl_list_import.3 gnutls_x509_crl_list_import2.3 gnutls_x509_crl_print.3 gnutls_x509_crl_privkey_sign.3 gnutls_x509_crl_set_authority_key_id.3 gnutls_x509_crl_set_crt.3 gnutls_x509_crl_set_crt_serial.3 gnutls_x509_crl_set_next_update.3 gnutls_x509_crl_set_number.3 gnutls_x509_crl_set_this_update.3 gnutls_x509_crl_set_version.3 gnutls_x509_crl_sign.3 gnutls_x509_crl_sign2.3 gnutls_x509_crl_verify.3 gnutls_x509_crq_deinit.3 gnutls_x509_crq_export.3 gnutls_x509_crq_export2.3 gnutls_x509_crq_get_attribute_by_oid.3 gnutls_x509_crq_get_attribute_data.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_x509_crq_get_attribute_info.3 gnutls_x509_crq_get_basic_constraints.3 gnutls_x509_crq_get_challenge_password.3 gnutls_x509_crq_get_dn.3 gnutls_x509_crq_get_dn2.3 gnutls_x509_crq_get_dn_by_oid.3 gnutls_x509_crq_get_dn_oid.3 gnutls_x509_crq_get_extension_by_oid.3 gnutls_x509_crq_get_extension_data.3 gnutls_x509_crq_get_extension_info.3 gnutls_x509_crq_get_key_id.3 gnutls_x509_crq_get_key_purpose_oid.3 gnutls_x509_crq_get_key_rsa_raw.3 gnutls_x509_crq_get_key_usage.3 gnutls_x509_crq_get_pk_algorithm.3 gnutls_x509_crq_get_private_key_usage_period.3 gnutls_x509_crq_get_subject_alt_name.3 gnutls_x509_crq_get_subject_alt_othername_oid.3 gnutls_x509_crq_get_version.3 gnutls_x509_crq_import.3 gnutls_x509_crq_init.3 gnutls_x509_crq_print.3 gnutls_x509_crq_privkey_sign.3 gnutls_x509_crq_set_attribute_by_oid.3 gnutls_x509_crq_set_basic_constraints.3 gnutls_x509_crq_set_challenge_password.3 gnutls_x509_crq_set_dn.3 gnutls_x509_crq_set_dn_by_oid.3 gnutls_x509_crq_set_key.3 gnutls_x509_crq_set_key_purpose_oid.3 gnutls_x509_crq_set_key_rsa_raw.3 gnutls_x509_crq_set_key_usage.3 gnutls_x509_crq_set_private_key_usage_period.3 gnutls_x509_crq_set_pubkey.3 gnutls_x509_crq_set_subject_alt_name.3 gnutls_x509_crq_set_version.3 gnutls_x509_crq_sign.3 gnutls_x509_crq_sign2.3 gnutls_x509_crq_verify.3 gnutls_x509_crt_check_hostname.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_x509_crt_check_issuer.3 gnutls_x509_crt_check_revocation.3 gnutls_x509_crt_cpy_crl_dist_points.3 gnutls_x509_crt_deinit.3 gnutls_x509_crt_export.3 gnutls_x509_crt_export2.3 gnutls_x509_crt_get_activation_time.3 gnutls_x509_crt_get_authority_info_access.3 gnutls_x509_crt_get_authority_key_gn_serial.3 gnutls_x509_crt_get_authority_key_id.3 gnutls_x509_crt_get_basic_constraints.3 gnutls_x509_crt_get_ca_status.3 gnutls_x509_crt_get_crl_dist_points.3 gnutls_x509_crt_get_dn.3 gnutls_x509_crt_get_dn2.3 gnutls_x509_crt_get_dn_by_oid.3 gnutls_x509_crt_get_dn_oid.3 gnutls_x509_crt_get_expiration_time.3 gnutls_x509_crt_get_extension_by_oid.3 gnutls_x509_crt_get_extension_data.3 gnutls_x509_crt_get_extension_info.3 gnutls_x509_crt_get_extension_oid.3 gnutls_x509_crt_get_fingerprint.3 gnutls_x509_crt_get_issuer.3 gnutls_x509_crt_get_issuer_alt_name.3 gnutls_x509_crt_get_issuer_alt_name2.3 gnutls_x509_crt_get_issuer_alt_othername_oid.3 gnutls_x509_crt_get_issuer_dn.3 gnutls_x509_crt_get_issuer_dn2.3 gnutls_x509_crt_get_issuer_dn_by_oid.3 gnutls_x509_crt_get_issuer_dn_oid.3 gnutls_x509_crt_get_issuer_unique_id.3 gnutls_x509_crt_get_key_id.3 gnutls_x509_crt_get_key_purpose_oid.3 gnutls_x509_crt_get_key_usage.3 gnutls_x509_crt_get_pk_algorithm.3 gnutls_x509_crt_get_pk_dsa_raw.3 gnutls_x509_crt_get_pk_rsa_raw.3 gnutls_x509_crt_get_policy.3 gnutls_x509_crt_get_preferred_hash_algorithm.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_x509_crt_get_private_key_usage_period.3 gnutls_x509_crt_get_proxy.3 gnutls_x509_crt_get_raw_dn.3 gnutls_x509_crt_get_raw_issuer_dn.3 gnutls_x509_crt_get_serial.3 gnutls_x509_crt_get_signature.3 gnutls_x509_crt_get_signature_algorithm.3 gnutls_x509_crt_get_subject.3 gnutls_x509_crt_get_subject_alt_name.3 gnutls_x509_crt_get_subject_alt_name2.3 gnutls_x509_crt_get_subject_alt_othername_oid.3 gnutls_x509_crt_get_subject_key_id.3 gnutls_x509_crt_get_subject_unique_id.3 gnutls_x509_crt_get_verify_algorithm.3 gnutls_x509_crt_get_version.3 gnutls_x509_crt_import.3 gnutls_x509_crt_import_pkcs11.3 gnutls_x509_crt_import_pkcs11_url.3 gnutls_x509_crt_init.3 gnutls_x509_crt_list_import.3 gnutls_x509_crt_list_import2.3 gnutls_x509_crt_list_import_pkcs11.3 gnutls_x509_crt_list_verify.3 gnutls_x509_crt_print.3 gnutls_x509_crt_privkey_sign.3 gnutls_x509_crt_set_activation_time.3 gnutls_x509_crt_set_authority_info_access.3 gnutls_x509_crt_set_authority_key_id.3 gnutls_x509_crt_set_basic_constraints.3 gnutls_x509_crt_set_ca_status.3 gnutls_x509_crt_set_crl_dist_points.3 gnutls_x509_crt_set_crl_dist_points2.3 gnutls_x509_crt_set_crq.3 gnutls_x509_crt_set_crq_extensions.3 gnutls_x509_crt_set_dn.3 gnutls_x509_crt_set_dn_by_oid.3 gnutls_x509_crt_set_expiration_time.3 gnutls_x509_crt_set_extension_by_oid.3 gnutls_x509_crt_set_issuer_dn.3 gnutls_x509_crt_set_issuer_dn_by_oid.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_x509_crt_set_key.3 gnutls_x509_crt_set_key_purpose_oid.3 gnutls_x509_crt_set_key_usage.3 gnutls_x509_crt_set_pin_function.3 gnutls_x509_crt_set_policy.3 gnutls_x509_crt_set_private_key_usage_period.3 gnutls_x509_crt_set_proxy.3 gnutls_x509_crt_set_proxy_dn.3 gnutls_x509_crt_set_pubkey.3 gnutls_x509_crt_set_serial.3 gnutls_x509_crt_set_subject_alternative_name.3 gnutls_x509_crt_set_subject_alt_name.3 gnutls_x509_crt_set_subject_key_id.3 gnutls_x509_crt_set_version.3 gnutls_x509_crt_sign.3 gnutls_x509_crt_sign2.3 gnutls_x509_crt_verify.3 gnutls_x509_crt_verify_data.3 gnutls_x509_crt_verify_hash.3 gnutls_x509_dn_deinit.3 gnutls_x509_dn_export.3 gnutls_x509_dn_export2.3 gnutls_x509_dn_get_rdn_ava.3 gnutls_x509_dn_import.3 gnutls_x509_dn_init.3 gnutls_x509_dn_oid_known.3 gnutls_x509_dn_oid_name.3 gnutls_x509_policy_release.3 gnutls_x509_privkey_cpy.3 gnutls_x509_privkey_deinit.3 gnutls_x509_privkey_export.3 gnutls_x509_privkey_export2.3 gnutls_x509_privkey_export2_pkcs8.3 gnutls_x509_privkey_export_dsa_raw.3 gnutls_x509_privkey_export_ecc_raw.3 gnutls_x509_privkey_export_pkcs8.3 gnutls_x509_privkey_export_rsa_raw.3 gnutls_x509_privkey_export_rsa_raw2.3 gnutls_x509_privkey_fix.3 gnutls_x509_privkey_generate.3 '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 gnutls_x509_privkey_get_key_id.3 gnutls_x509_privkey_get_pk_algorithm.3 gnutls_x509_privkey_get_pk_algorithm2.3 gnutls_x509_privkey_import.3 gnutls_x509_privkey_import2.3 gnutls_x509_privkey_import_dsa_raw.3 gnutls_x509_privkey_import_ecc_raw.3 gnutls_x509_privkey_import_openssl.3 gnutls_x509_privkey_import_pkcs8.3 gnutls_x509_privkey_import_rsa_raw.3 gnutls_x509_privkey_import_rsa_raw2.3 gnutls_x509_privkey_init.3 gnutls_x509_privkey_sec_param.3 gnutls_x509_privkey_sign_data.3 gnutls_x509_privkey_sign_hash.3 gnutls_x509_privkey_verify_params.3 gnutls_x509_rdn_get.3 gnutls_x509_rdn_get_by_oid.3 gnutls_x509_rdn_get_oid.3 gnutls_x509_trust_list_add_cas.3 gnutls_x509_trust_list_add_crls.3 gnutls_x509_trust_list_add_named_crt.3 gnutls_x509_trust_list_add_system_trust.3 gnutls_x509_trust_list_add_trust_file.3 gnutls_x509_trust_list_add_trust_mem.3 gnutls_x509_trust_list_deinit.3 gnutls_x509_trust_list_get_issuer.3 gnutls_x509_trust_list_init.3 gnutls_x509_trust_list_remove_cas.3 gnutls_x509_trust_list_remove_trust_file.3 gnutls_x509_trust_list_remove_trust_mem.3 gnutls_x509_trust_list_verify_crt.3 gnutls_x509_trust_list_verify_named_crt.3 '/usr/share/man/man3'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/manpages'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc/manpages'
+Making install in credentials
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials'
+Making install in openpgp
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/openpgp'
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/openpgp'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/openpgp'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/openpgp'
+Making install in srp
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/srp'
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/srp'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/srp'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/srp'
+Making install in x509
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/x509'
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials/x509'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/x509'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials/x509'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials'
+make[5]: Entering directory '/tmp/gnutls-3.1.23/doc/credentials'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc/credentials'
+Making install in latex
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc/latex'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc/latex'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc/latex'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc/latex'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/doc'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 gnutls-handshake-state.png gnutls-layers.png gnutls-modauth.png gnutls-pgp.png gnutls-client-server-use-case.png gnutls-handshake-sequence.png gnutls-internals.png gnutls-logo.png gnutls-x509.png pkcs11-vision.png '/usr/share/info'
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./gnutls.info ./gnutls.info-1 ./gnutls.info-2 ./gnutls.info-3 ./gnutls.info-4 ./gnutls.info-5 ./gnutls-guile.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gnutls.info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gnutls-guile.info'
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/doc'
+Making install in tests
+make[1]: Entering directory '/tmp/gnutls-3.1.23/tests'
+Making install in .
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests'
+Making install in rsa-md5-collision
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/rsa-md5-collision'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/rsa-md5-collision'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/rsa-md5-collision'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/rsa-md5-collision'
+Making install in pkcs1-padding
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs1-padding'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs1-padding'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs1-padding'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs1-padding'
+Making install in pkcs8-decode
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs8-decode'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs8-decode'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs8-decode'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs8-decode'
+Making install in pkcs12-decode
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs12-decode'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/pkcs12-decode'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs12-decode'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/pkcs12-decode'
+Making install in userid
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/userid'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/userid'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/userid'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/userid'
+Making install in cert-tests
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/cert-tests'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/cert-tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/cert-tests'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/cert-tests'
+Making install in key-id
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/key-id'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/key-id'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/key-id'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/key-id'
+Making install in sha2
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/sha2'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/sha2'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/sha2'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/sha2'
+Making install in safe-renegotiation
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/safe-renegotiation'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/safe-renegotiation'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/safe-renegotiation'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/safe-renegotiation'
+Making install in dsa
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/dsa'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/dsa'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/dsa'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/dsa'
+Making install in scripts
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/scripts'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/scripts'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/scripts'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/scripts'
+Making install in ecdsa
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/ecdsa'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/ecdsa'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/ecdsa'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/ecdsa'
+Making install in slow
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/slow'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/slow'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/slow'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/slow'
+Making install in dtls
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/dtls'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/dtls'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/dtls'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/dtls'
+Making install in srp
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/srp'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/srp'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/srp'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/srp'
+Making install in openpgp-certs
+make[2]: Entering directory '/tmp/gnutls-3.1.23/tests/openpgp-certs'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/tests/openpgp-certs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/tests/openpgp-certs'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/tests/openpgp-certs'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/tests'
+Making install in guile
+make[1]: Entering directory '/tmp/gnutls-3.1.23/guile'
+Making install in modules
+make[2]: Entering directory '/tmp/gnutls-3.1.23/guile/modules'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile/modules'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/guile/site'
+ /bin/mkdir -p '/usr/share/guile/site/gnutls'
+ /usr/bin/install -c -m 644  gnutls/extra.scm '/usr/share/guile/site/gnutls'
+ /bin/mkdir -p '/usr/share/guile/site'
+ /usr/bin/install -c -m 644  gnutls.scm '/usr/share/guile/site/.'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile/modules'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/guile/modules'
+Making install in src
+make[2]: Entering directory '/tmp/gnutls-3.1.23/guile/src'
+make  install-am
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile/src'
+make[4]: Entering directory '/tmp/gnutls-3.1.23/guile/src'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/guile/2.0'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   guile-gnutls-v-2.la '/usr/lib/guile/2.0'
+libtool: install: warning: relinking `guile-gnutls-v-2.la'
+libtool: install: (cd /tmp/gnutls-3.1.23/guile/src; /bin/bash /tmp/gnutls-3.1.23/libtool  --silent --tag CC --mode=relink gcc -Wno-strict-prototypes -I../../gl -I../../gl -pthread -I/usr/include/guile/2.0 -g -O2 -module -o guile-gnutls-v-2.la -rpath /usr/lib/guile/2.0 guile_gnutls_v_2_la-core.lo guile_gnutls_v_2_la-errors.lo guile_gnutls_v_2_la-utils.lo ../../lib/libgnutls.la ../../gl/libgnu.la -lguile-2.0 -lgc )
+libtool: install: /usr/bin/install -c .libs/guile-gnutls-v-2.so.0.0.0T /usr/lib/guile/2.0/guile-gnutls-v-2.so.0.0.0
+libtool: install: (cd /usr/lib/guile/2.0 && { ln -s -f guile-gnutls-v-2.so.0.0.0 guile-gnutls-v-2.so.0 || { rm -f guile-gnutls-v-2.so.0 && ln -s guile-gnutls-v-2.so.0.0.0 guile-gnutls-v-2.so.0; }; })
+libtool: install: (cd /usr/lib/guile/2.0 && { ln -s -f guile-gnutls-v-2.so.0.0.0 guile-gnutls-v-2.so || { rm -f guile-gnutls-v-2.so && ln -s guile-gnutls-v-2.so.0.0.0 guile-gnutls-v-2.so; }; })
+libtool: install: /usr/bin/install -c .libs/guile-gnutls-v-2.lai /usr/lib/guile/2.0/guile-gnutls-v-2.la
+libtool: install: /usr/bin/install -c .libs/guile-gnutls-v-2.a /usr/lib/guile/2.0/guile-gnutls-v-2.a
+libtool: install: chmod 644 /usr/lib/guile/2.0/guile-gnutls-v-2.a
+libtool: install: ranlib /usr/lib/guile/2.0/guile-gnutls-v-2.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/guile/2.0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/guile/2.0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/tmp/gnutls-3.1.23/guile/src'
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile/src'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/guile/src'
+Making install in tests
+make[2]: Entering directory '/tmp/gnutls-3.1.23/guile/tests'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile/tests'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/guile/tests'
+make[2]: Entering directory '/tmp/gnutls-3.1.23/guile'
+make[3]: Entering directory '/tmp/gnutls-3.1.23/guile'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/gnutls-3.1.23/guile'
+make[2]: Leaving directory '/tmp/gnutls-3.1.23/guile'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23/guile'
+make[1]: Entering directory '/tmp/gnutls-3.1.23'
+make[2]: Entering directory '/tmp/gnutls-3.1.23'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/gnutls-3.1.23'
+make[1]: Leaving directory '/tmp/gnutls-3.1.23'

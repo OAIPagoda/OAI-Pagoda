@@ -117,12 +117,16 @@ typedef struct Enb_properties_s {
 
   /* Mobile Country Code
    * Mobile Network Code
+   * For a single PLMN
    */
-  uint16_t            mcc;
+  /*uint16_t            mcc;
   uint16_t            mnc;
-  uint8_t             mnc_digit_length;
+  uint8_t             mnc_digit_length;*/
 
-
+    /* Nb of PLMN to connect for each MME*/
+  uint8_t             nb_plmn;
+  /*list of PLMNs to connect to*/
+  s1ap_plmn_t              plmn[S1AP_MAX_NB_PLMN];
 
   /* Physical parameters */
   int16_t                 nb_cc;

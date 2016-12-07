@@ -419,10 +419,11 @@ uint8_t do_SIB1(uint8_t Mod_id, int CC_id,
 
   //  SystemInformation_t systemInformation;
   PLMN_IdentityInfo_t PLMN_identity_info;
-  MCC_MNC_Digit_t dummy_mcc[3],dummy_mnc[3];
+  MCC_MNC_Digit_t dummy_mcc[3][3],dummy_mnc[3][3];
   asn_enc_rval_t enc_rval;
   SchedulingInfo_t schedulingInfo;
   SIB_Type_t sib_type;
+  uint8_t index;
 
   memset(bcch_message,0,sizeof(BCCH_DL_SCH_Message_t));
   bcch_message->message.present = BCCH_DL_SCH_MessageType_PR_c1;
@@ -442,51 +443,55 @@ uint8_t do_SIB1(uint8_t Mod_id, int CC_id,
 
   asn_set_empty(&PLMN_identity_info.plmn_Identity.mcc->list);//.size=0;
 
+  for (index = 0; index < configuration->nb_plmn; index++) {
 #if defined(ENABLE_ITTI)
-  dummy_mcc[0] = (configuration->mcc / 100) % 10;
-  dummy_mcc[1] = (configuration->mcc / 10) % 10;
-  dummy_mcc[2] = (configuration->mcc / 1) % 10;
+      dummy_mcc[index][0] = (configuration->plmn[index].mcc / 100) % 10;
+      dummy_mcc[index][1] = (configuration->plmn[index].mcc / 10) % 10;
+      dummy_mcc[index][2] = (configuration->plmn[index].mcc / 1) % 10;
 #else
-  dummy_mcc[0] = 0;
-  dummy_mcc[1] = 0;
-  dummy_mcc[2] = 1;
+      dummy_mcc[index][0] = 0;
+      dummy_mcc[index][1] = 0;
+      dummy_mcc[index][2] = 1;
 #endif
-  ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mcc->list,&dummy_mcc[0]);
-  ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mcc->list,&dummy_mcc[1]);
-  ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mcc->list,&dummy_mcc[2]);
 
+      ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mcc->list, &dummy_mcc[index][0]);
+      ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mcc->list, &dummy_mcc[index][1]);
+      ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mcc->list, &dummy_mcc[index][2]);
+  }
   PLMN_identity_info.plmn_Identity.mnc.list.size=0;
   PLMN_identity_info.plmn_Identity.mnc.list.count=0;
-#if defined(ENABLE_ITTI)
 
-  if (configuration->mnc >= 100) {
-    dummy_mnc[0] = (configuration->mnc / 100) % 10;
-    dummy_mnc[1] = (configuration->mnc / 10) % 10;
-    dummy_mnc[2] = (configuration->mnc / 1) % 10;
-  } else {
-    if (configuration->mnc_digit_length == 2) {
-      dummy_mnc[0] = (configuration->mnc / 10) % 10;
-      dummy_mnc[1] = (configuration->mnc / 1) % 10;
-      dummy_mnc[2] = 0xf;
-    } else {
-      dummy_mnc[0] = (configuration->mnc / 100) % 100;
-      dummy_mnc[1] = (configuration->mnc / 10) % 10;
-      dummy_mnc[2] = (configuration->mnc / 1) % 10;
-    }
-  }
+  for (index = 0; index < configuration->nb_plmn; index++) {
+#if defined(ENABLE_ITTI)
+      if (configuration->plmn[index].mnc >= 100) {
+        dummy_mnc[index][0] = (configuration->plmn[index].mnc / 100) % 10;
+        dummy_mnc[index][1] = (configuration->plmn[index].mnc / 10) % 10;
+        dummy_mnc[index][2] = (configuration->plmn[index].mnc / 1) % 10;
+      } else {
+          if (configuration->plmn[index].mnc_digit_length == 2) {
+             dummy_mnc[index][0] = (configuration->plmn[index].mnc / 10) % 10;
+             dummy_mnc[index][1] = (configuration->plmn[index].mnc / 1) % 10;
+             dummy_mnc[index][2] = 0xf;
+          } else {
+             dummy_mnc[index][0] = (configuration->plmn[index].mnc / 100) % 100;
+             dummy_mnc[index][1] = (configuration->plmn[index].mnc / 10) % 10;
+             dummy_mnc[index][2] = (configuration->plmn[index].mnc / 1) % 10;
+          }
+        }
 
 #else
-  dummy_mnc[0] = 0;
-  dummy_mnc[1] = 1;
-  dummy_mnc[2] = 0xf;
+      dummy_mnc[index][0] = 0;
+      dummy_mnc[index][1] = 1;
+      dummy_mnc[index][2] = 0xf;
 #endif
-  ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mnc.list,&dummy_mnc[0]);
-  ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mnc.list,&dummy_mnc[1]);
 
-  if (dummy_mnc[2] != 0xf) {
-    ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mnc.list,&dummy_mnc[2]);
+      ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mnc.list, &dummy_mnc[index][0]);
+      ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mnc.list, &dummy_mnc[index][1]);
+
+      if (dummy_mnc[index][2] != 0xf) {
+          ASN_SEQUENCE_ADD(&PLMN_identity_info.plmn_Identity.mnc.list, &dummy_mnc[index][2]);
+      }
   }
-
   //assign_enum(&PLMN_identity_info.cellReservedForOperatorUse,PLMN_IdentityInfo__cellReservedForOperatorUse_notReserved);
   PLMN_identity_info.cellReservedForOperatorUse=PLMN_IdentityInfo__cellReservedForOperatorUse_notReserved;
 

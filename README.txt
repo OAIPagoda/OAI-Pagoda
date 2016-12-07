@@ -25,3 +25,4 @@ openairinterface5g
     ├── SECU
     ├── UDP
 └── targets: top level wrapper for unitary simulation for PHY channels, system-level emulation (eNB-UE with and without S1), and realtime eNB and UE and RRH GW.
+This is really awesome!

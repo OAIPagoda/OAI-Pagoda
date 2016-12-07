@@ -70,6 +70,7 @@
 #define ENB_CONFIG_STRING_TRACKING_AREA_CODE            "tracking_area_code"
 #define ENB_CONFIG_STRING_MOBILE_COUNTRY_CODE           "mobile_country_code"
 #define ENB_CONFIG_STRING_MOBILE_NETWORK_CODE           "mobile_network_code"
+#define ENB_CONFIG_STRING_PLMN                          "plmn"
 
 #define ENB_CONFIG_STRING_COMPONENT_CARRIERS                            "component_carriers"
 
@@ -278,14 +279,18 @@ void enb_config_display(void)
     printf( "\teNB name:           \t%s:\n",enb_properties.properties[i]->eNB_name);
     printf( "\teNB ID:             \t%"PRIu32":\n",enb_properties.properties[i]->eNB_id);
     printf( "\tCell type:          \t%s:\n",enb_properties.properties[i]->cell_type == CELL_MACRO_ENB ? "CELL_MACRO_ENB":"CELL_HOME_ENB");
-    printf( "\tTAC:                \t%"PRIu16":\n",enb_properties.properties[i]->tac);
-    printf( "\tMCC:                \t%"PRIu16":\n",enb_properties.properties[i]->mcc);
+      printf( "\tTAC:                \t%"PRIu16":\n",enb_properties.properties[i]->tac);
+      for (int j = 0; j < enb_properties.properties[i]->nb_plmn; j++) {
+          printf("\tPLMN:                %u:\n\n",j);
+          printf( "\tMCC:                \t%"PRIu16":\n",enb_properties.properties[i]->plmn[j].mcc);
+          if (enb_properties.properties[i]->plmn[j].mnc_digit_length == 3) {
+              printf( "\tMNC:                \t%03"PRIu16":\n",enb_properties.properties[i]->plmn[j].mnc);
+          } else {
+              printf( "\tMNC:                \t%02"PRIu16":\n",enb_properties.properties[i]->plmn[j].mnc);
+          }
+      }
 
-    if (enb_properties.properties[i]->mnc_digit_length == 3) {
-      printf( "\tMNC:                \t%03"PRIu16":\n",enb_properties.properties[i]->mnc);
-    } else {
-      printf( "\tMNC:                \t%02"PRIu16":\n",enb_properties.properties[i]->mnc);
-    }
+
     
     for (j=0; j< enb_properties.properties[i]->nb_rrh_gw; j++) {
       if (enb_properties.properties[i]->rrh_gw_config[j].active == 1 ){
@@ -498,11 +503,14 @@ const Enb_properties_array_t *enb_config_init(char* lib_config_file_name_pP)
   config_setting_t *setting_rrh_gws               = NULL;
   config_setting_t *setting_rrh_gw                = NULL;
   config_setting_t *setting_enb                   = NULL;
+  config_setting_t *setting_plmns                 = NULL;
+  config_setting_t *setting_plmn                  = NULL;
   config_setting_t *setting_otg                   = NULL;
   config_setting_t *subsetting_otg                = NULL;
   int               num_enb_properties            = 0;
   int               enb_properties_index          = 0;
   int               num_enbs                      = 0;
+  int               num_plmn                      = 0;
   int               num_mme_address               = 0;
   int               num_rrh_gw                    = 0;
   int               num_otg_elements              = 0;
@@ -731,10 +739,6 @@ const Enb_properties_array_t *enb_config_init(char* lib_config_file_name_pP)
       if (  !(       config_setting_lookup_string(setting_enb, ENB_CONFIG_STRING_CELL_TYPE,           &cell_type)
                     && config_setting_lookup_string(setting_enb, ENB_CONFIG_STRING_ENB_NAME,            &enb_name)
                     && config_setting_lookup_string(setting_enb, ENB_CONFIG_STRING_TRACKING_AREA_CODE,  &tac)
-                    && config_setting_lookup_string(setting_enb, ENB_CONFIG_STRING_MOBILE_COUNTRY_CODE, &mcc)
-                    && config_setting_lookup_string(setting_enb, ENB_CONFIG_STRING_MOBILE_NETWORK_CODE, &mnc)
-
-
             )
         ) {
         AssertError (0, parse_errors ++,
@@ -742,6 +746,7 @@ const Enb_properties_array_t *enb_config_init(char* lib_config_file_name_pP)
                      lib_config_file_name_pP, i);
         continue; // FIXME this prevents segfaults below, not sure what happens after function exit
       }
+
 
       // search if in active list
       for (j=0; j < num_enb_properties; j++) {
@@ -762,13 +767,46 @@ const Enb_properties_array_t *enb_config_init(char* lib_config_file_name_pP)
 
           enb_properties.properties[enb_properties_index]->eNB_name         = strdup(enb_name);
           enb_properties.properties[enb_properties_index]->tac              = (uint16_t)atoi(tac);
-          enb_properties.properties[enb_properties_index]->mcc              = (uint16_t)atoi(mcc);
+
+          /* To get the list of plmns */
+          setting_plmns = config_setting_get_member (setting_enb, ENB_CONFIG_STRING_PLMN);
+          num_plmn     = config_setting_length(setting_plmns);
+          enb_properties.properties[enb_properties_index]->nb_plmn = 0;
+
+          for (j = 0; j < num_plmn; j++) {
+            setting_plmn = config_setting_get_elem(setting_plmns, j);
+
+            if (  !(
+                    config_setting_lookup_string(setting_plmn, ENB_CONFIG_STRING_MOBILE_COUNTRY_CODE, &mcc)
+                    && config_setting_lookup_string(setting_plmn, ENB_CONFIG_STRING_MOBILE_NETWORK_CODE, &mnc)
+            )
+                    ) {
+              AssertError (0, parse_errors ++,
+                           "Failed to parse eNB configuration file %s, %u th enb %u th plmn !\n",
+                           lib_config_file_name_pP, i, j);
+              continue; // FIXME will prevent segfaults below, not sure what happens at function exit...
+            }
+
+            enb_properties.properties[enb_properties_index]->nb_plmn += 1;
+
+            enb_properties.properties[enb_properties_index]->plmn[j].mcc = (uint16_t)atoi(mcc);
+            enb_properties.properties[enb_properties_index]->plmn[j].mnc = (uint16_t)atoi(mnc);
+            enb_properties.properties[enb_properties_index]->plmn[j].mnc_digit_length = strlen(mnc);
+            AssertFatal((enb_properties.properties[enb_properties_index]->plmn[j].mnc_digit_length == 2) ||
+                        (enb_properties.properties[enb_properties_index]->plmn[j].mnc_digit_length == 3),
+                        "BAD MNC DIGIT LENGTH %d",
+                        enb_properties.properties[i]->plmn[j].mnc_digit_length);
+
+          }
+
+
+          /*enb_properties.properties[enb_properties_index]->mcc              = (uint16_t)atoi(mcc);
           enb_properties.properties[enb_properties_index]->mnc              = (uint16_t)atoi(mnc);
           enb_properties.properties[enb_properties_index]->mnc_digit_length = strlen(mnc);
           AssertFatal((enb_properties.properties[enb_properties_index]->mnc_digit_length == 2) ||
                       (enb_properties.properties[enb_properties_index]->mnc_digit_length == 3),
                       "BAD MNC DIGIT LENGTH %d",
-                      enb_properties.properties[i]->mnc_digit_length);
+                      enb_properties.properties[i]->mnc_digit_length);*/
 
 
           // Parse optional physical parameters

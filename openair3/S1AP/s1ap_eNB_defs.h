@@ -33,6 +33,7 @@
 #include "tree.h"
 
 #include "sctp_eNB_defs.h"
+#include "s1ap_messages_types.h"
 
 #ifndef S1AP_ENB_DEFS_H_
 #define S1AP_ENB_DEFS_H_
@@ -206,9 +207,13 @@ typedef struct s1ap_eNB_instance_s {
   /* Mobile Country Code
    * Mobile Network Code
    */
-  uint16_t  mcc;
+  /*uint16_t  mcc;
   uint16_t  mnc;
-  uint8_t   mnc_digit_length;
+  uint8_t   mnc_digit_length;*/
+    /* Nb of PLMN to connect for each MME*/
+    uint8_t             nb_plmn;
+    /*list of PLMNs to connect to*/
+    s1ap_plmn_t              plmn[S1AP_MAX_NB_PLMN];
 
   /* Default Paging DRX of the eNB as defined in TS 36.304 */
   paging_drx_t default_drx;

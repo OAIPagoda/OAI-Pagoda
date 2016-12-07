@@ -99,10 +99,13 @@ static void configure_rrc(uint32_t enb_id, const Enb_properties_array_t *enb_pro
 
   RRC_CONFIGURATION_REQ (msg_p).cell_identity =   enb_properties->properties[enb_id]->eNB_id;
   RRC_CONFIGURATION_REQ (msg_p).tac =             enb_properties->properties[enb_id]->tac;
-  RRC_CONFIGURATION_REQ (msg_p).mcc =             enb_properties->properties[enb_id]->mcc;
-  RRC_CONFIGURATION_REQ (msg_p).mnc =             enb_properties->properties[enb_id]->mnc;
-  RRC_CONFIGURATION_REQ (msg_p).mnc_digit_length = enb_properties->properties[enb_id]->mnc_digit_length;
+  RRC_CONFIGURATION_REQ (msg_p).nb_plmn =             enb_properties->properties[enb_id]->nb_plmn;
 
+  for (CC_id=0; CC_id<RRC_CONFIGURATION_REQ (msg_p).nb_plmn; CC_id++){
+    RRC_CONFIGURATION_REQ (msg_p).plmn[CC_id].mcc =             enb_properties->properties[enb_id]->plmn[CC_id].mcc;
+    RRC_CONFIGURATION_REQ (msg_p).plmn[CC_id].mnc =             enb_properties->properties[enb_id]->plmn[CC_id].mnc;
+    RRC_CONFIGURATION_REQ (msg_p).plmn[CC_id].mnc_digit_length = enb_properties->properties[enb_id]->plmn[CC_id].mnc_digit_length;
+  }
   for (CC_id=0; CC_id<MAX_NUM_CCs; CC_id++) {
     RRC_CONFIGURATION_REQ (msg_p).frame_type[CC_id]                               = enb_properties->properties[enb_id]->frame_type[CC_id];
     RRC_CONFIGURATION_REQ (msg_p).tdd_config[CC_id]                               = enb_properties->properties[enb_id]->tdd_config[CC_id];
@@ -225,9 +228,16 @@ static uint32_t eNB_app_register(uint32_t enb_id_start, uint32_t enb_id_end, con
       s1ap_register_eNB->cell_type        = enb_properties->properties[enb_id]->cell_type;
       s1ap_register_eNB->eNB_name         = enb_properties->properties[enb_id]->eNB_name;
       s1ap_register_eNB->tac              = enb_properties->properties[enb_id]->tac;
-      s1ap_register_eNB->mcc              = enb_properties->properties[enb_id]->mcc;
-      s1ap_register_eNB->mnc              = enb_properties->properties[enb_id]->mnc;
-      s1ap_register_eNB->mnc_digit_length = enb_properties->properties[enb_id]->mnc_digit_length;
+
+      s1ap_register_eNB->nb_plmn =         enb_properties->properties[enb_id]->nb_plmn;
+      AssertFatal (s1ap_register_eNB->nb_plmn <= S1AP_MAX_NB_PLMN, "Too many PLMNS for eNB %d (%d/%d)!", enb_id, s1ap_register_eNB->nb_plmn,
+                   S1AP_MAX_NB_PLMN);
+       for (mme_id = 0; mme_id < s1ap_register_eNB->nb_plmn; mme_id++) {
+        s1ap_register_eNB->plmn[mme_id].mcc              = enb_properties->properties[enb_id]->plmn[mme_id].mcc;
+        s1ap_register_eNB->plmn[mme_id].mnc              = enb_properties->properties[enb_id]->plmn[mme_id].mnc;
+        s1ap_register_eNB->plmn[mme_id].mnc_digit_length = enb_properties->properties[enb_id]->plmn[mme_id].mnc_digit_length;
+      }
+
       s1ap_register_eNB->default_drx      = enb_properties->properties[enb_id]->pcch_defaultPagingCycle[0];
 
       s1ap_register_eNB->nb_mme =         enb_properties->properties[enb_id]->nb_mme;
